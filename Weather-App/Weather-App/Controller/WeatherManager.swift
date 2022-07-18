@@ -6,7 +6,7 @@
 //  Copyright © 2019 App Brewery. All rights reserved.
 //
 
-import Foundation
+/*import Foundation
 import CoreLocation
 
 protocol WeatherManagerDelegate {
@@ -67,5 +67,5 @@ struct WeatherManager {
     
     
 }
-
+*/
 
