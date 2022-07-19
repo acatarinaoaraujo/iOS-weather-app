@@ -87,20 +87,38 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="3Rt-Jx-HUd">
                                                 <rect key="frame" x="0.0" y="8" width="374" height="672"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4Fv-9Z-FRk">
-                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4Fv-9Z-FRk">
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="134.5"/>
+                                                        <color key="backgroundColor" red="0.16637538869999999" green="0.41806013180000001" blue="0.13119468619999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="134.40000000000001" id="Euf-CZ-4Gm"/>
+                                                        </constraints>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YrA-h4-Vem">
-                                                        <rect key="frame" x="0.0" y="155.5" width="374" height="50"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YrA-h4-Vem">
+                                                        <rect key="frame" x="0.0" y="134.5" width="374" height="134.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="134.40000000000001" id="iJu-4U-Vbj"/>
+                                                        </constraints>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0BL-QO-Gc9">
-                                                        <rect key="frame" x="0.0" y="311" width="374" height="50"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0BL-QO-Gc9">
+                                                        <rect key="frame" x="0.0" y="269" width="374" height="134"/>
+                                                        <color key="backgroundColor" red="0.16637538869999999" green="0.41806013180000001" blue="0.13119468619999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="134.40000000000001" id="dfJ-V6-slk"/>
+                                                        </constraints>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NsM-LH-hlm">
-                                                        <rect key="frame" x="0.0" y="466.5" width="374" height="50"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NsM-LH-hlm">
+                                                        <rect key="frame" x="0.0" y="403" width="374" height="134.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="134.40000000000001" id="rXa-fu-GjX"/>
+                                                        </constraints>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Io8-a8-3kg">
-                                                        <rect key="frame" x="0.0" y="622" width="374" height="50"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Io8-a8-3kg">
+                                                        <rect key="frame" x="0.0" y="537.5" width="374" height="134.5"/>
+                                                        <color key="backgroundColor" red="0.16637538869999999" green="0.41806013180000001" blue="0.13119468619999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="134.40000000000001" id="Lc4-Lx-bY9"/>
+                                                        </constraints>
                                                     </stackView>
                                                 </subviews>
                                                 <constraints>
