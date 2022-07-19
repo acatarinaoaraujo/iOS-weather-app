@@ -85,7 +85,7 @@
                                         <rect key="frame" x="0.0" y="146" width="374" height="672"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="3Rt-Jx-HUd">
-                                                <rect key="frame" x="0.0" y="8" width="374" height="672"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="672"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4Fv-9Z-FRk">
                                                         <rect key="frame" x="0.0" y="0.0" width="374" height="134.5"/>
@@ -132,7 +132,7 @@
                                             <constraint firstItem="3Rt-Jx-HUd" firstAttribute="leading" secondItem="gGb-wu-5yh" secondAttribute="leading" id="Imy-Rb-h9W"/>
                                             <constraint firstAttribute="bottom" secondItem="3Rt-Jx-HUd" secondAttribute="bottom" constant="-8" id="W22-x9-cx4"/>
                                             <constraint firstItem="3Rt-Jx-HUd" firstAttribute="centerX" secondItem="Bc7-2Z-tzg" secondAttribute="centerX" id="eYT-jS-qTI"/>
-                                            <constraint firstItem="3Rt-Jx-HUd" firstAttribute="top" secondItem="Bc7-2Z-tzg" secondAttribute="topMargin" id="pCP-l9-oGZ"/>
+                                            <constraint firstItem="3Rt-Jx-HUd" firstAttribute="top" secondItem="Bc7-2Z-tzg" secondAttribute="topMargin" constant="-8" id="pCP-l9-oGZ"/>
                                         </constraints>
                                         <viewLayoutGuide key="contentLayoutGuide" id="NIF-qC-NUm"/>
                                         <viewLayoutGuide key="frameLayoutGuide" id="gGb-wu-5yh"/>
