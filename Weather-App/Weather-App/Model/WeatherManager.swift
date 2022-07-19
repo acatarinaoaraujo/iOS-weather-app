@@ -15,7 +15,8 @@ protocol WeatherManagerDelegate {
 }
 
 struct WeatherManager {
-    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=c6856320ce2188319591d654c250e2dd&units=metric"
+    //let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=c6856320ce2188319591d654c250e2dd&units=metric"
+    let weatherURL = "https://api.openweathermap.org/data/2.5/forecast?appid=c6856320ce2188319591d654c250e2dd&units=imperial"
     
     var delegate: WeatherManagerDelegate?
     
@@ -54,6 +55,28 @@ struct WeatherManager {
             let id = decodedData.weather[0].id
             let temp = decodedData.main.temp
             let name = decodedData.name
+            
+            /*
+             let city = decodedData.city[0].name
+             let population = decodedData.city[0].population
+             let country = decodedData.city[0].country
+             let lat  = decodedData.city[0].coord[0].lat
+             let lon  = decodedData.city[0].coord[0].lot
+             
+             let temp = decodedData.list[0..40].main[0].temp
+             let feels = decodedData.list[0..40].main[0].feels
+             
+             let id = decodedData.list[0..40].weather[0].id
+             let description = decodedData.list[0..40].weather[0].description
+             
+             let day = decodedData.list[0..40].dt_txt (first part)
+             let time = decodedData.list[0..40].dt_txt (second part)
+             
+             let maxTempDay = max(decodedData.list[0..8].main[0].temp_max)
+             let minTempDay = min(decodedData.list[0..8].main[0].temp_min)
+             let dayOfWeek = find day of week
+             
+             */
             
             let weather = WeatherModel(conditionId: id, cityName: name, temperature: temp)
             return weather
