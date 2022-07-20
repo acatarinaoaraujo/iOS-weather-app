@@ -524,6 +524,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="cityLabel" destination="vyA-Vl-rUe" id="gbO-Dg-VDa"/>
                         <outlet property="searchTextField" destination="xeK-uN-ZW4" id="EN3-oB-sfG"/>
                     </connections>
                 </viewController>
