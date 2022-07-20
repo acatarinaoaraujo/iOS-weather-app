@@ -11,6 +11,7 @@ import Foundation
 struct WeatherModel {
     //let conditionId: Int
     let cityName: String
+    let countryName: String
     //let temperature: Double
     
     /* Computed Properties: temperatureString & conditionName

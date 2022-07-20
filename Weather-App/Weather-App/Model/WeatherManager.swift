@@ -56,7 +56,9 @@ struct WeatherManager {
             let temp = decodedData.main.temp
             let name = decodedData.name*/
             let name = decodedData.city.name
+            let country = decodedData.city.country
             print(name)
+            print(country)
             
             /*
              let city = decodedData.city[0].name
@@ -81,7 +83,7 @@ struct WeatherManager {
              */
             
             //let weather = WeatherModel(conditionId: id, cityName: name, temperature: temp)
-            let weather = WeatherModel(cityName: name)
+            let weather = WeatherModel(cityName: name, countryName: country)
             return weather
             
         } catch {
