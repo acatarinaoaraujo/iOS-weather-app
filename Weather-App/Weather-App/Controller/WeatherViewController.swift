@@ -14,6 +14,8 @@ class WeatherViewController: UIViewController {
     /*@IBOutlet weak var conditionImageView: UIImageView!
     @IBOutlet weak var temperatureLabel: UILabel!*/
     @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var populationLabel: UILabel!
+    
     @IBOutlet weak var searchTextField: UITextField!
     
     var weatherManager = WeatherManager()
@@ -75,6 +77,7 @@ extension WeatherViewController: WeatherManagerDelegate {
             //self.temperatureLabel.text = weather.temperatureString
             //self.conditionImageView.image = UIImage(systemName: weather.conditionName)
             self.cityLabel.text = weather.cityName + ", " + weather.countryName
+            self.populationLabel.text = "Population: " + String(weather.population)
         }
     }
     
