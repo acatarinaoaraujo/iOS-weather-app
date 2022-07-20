@@ -77,7 +77,11 @@ extension WeatherViewController: WeatherManagerDelegate {
             //self.temperatureLabel.text = weather.temperatureString
             //self.conditionImageView.image = UIImage(systemName: weather.conditionName)
             self.cityLabel.text = weather.cityName + ", " + weather.countryName
-            self.populationLabel.text = "Population: " + String(weather.population)
+            
+            let numberFormatter = NumberFormatter()
+            numberFormatter.numberStyle = .decimal
+            
+            self.populationLabel.text = "Population: " + (numberFormatter.string(from: NSNumber(value:weather.population)) ?? "0.0")
         }
     }
     
