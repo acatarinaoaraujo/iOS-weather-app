@@ -537,6 +537,7 @@
                         <outlet property="populationLabel" destination="zor-gZ-Aui" id="RI0-xt-Dxf"/>
                         <outlet property="searchTextField" destination="xeK-uN-ZW4" id="EN3-oB-sfG"/>
                         <outlet property="view8HoursStack" destination="pmL-Ze-jgo" id="odh-H2-2K8"/>
+                        <outlet property="weekDayLabel" destination="7On-tN-UFk" id="2qZ-nC-siy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
