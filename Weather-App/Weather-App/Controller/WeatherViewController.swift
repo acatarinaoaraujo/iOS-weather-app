@@ -41,7 +41,7 @@ class WeatherViewController: UIViewController {
         searchTextField.delegate = self
         
         view8HoursStack.isHidden = true
-        firstStackHeight.constant = 100
+        firstStackHeight.constant = 36
     }
     
     @IBAction func switchedMoved(_ sender: UISwitch) {
@@ -52,7 +52,7 @@ class WeatherViewController: UIViewController {
             firstStackHeight.constant = 336
         } else {
             view8HoursStack.isHidden = true
-            firstStackHeight.constant = 100
+            firstStackHeight.constant = 36
         }
         
         // self.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height + 20.0)
