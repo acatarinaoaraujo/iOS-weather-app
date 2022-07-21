@@ -25,7 +25,7 @@ struct Weather: Codable {
 
 struct WeatherData: Codable {
     let city: City
-    let List: [List]
+    let list: [List]
 }
 
 struct City: Codable {

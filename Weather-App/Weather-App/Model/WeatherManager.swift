@@ -70,7 +70,8 @@ struct WeatherManager {
             print(lon)
             print(decodedData.self)
             
-            let dayOfWeek = getDayInfo(rangeLow: 0, rangeHigh: 8, decodedData)
+            let dayOfWeek = get5DayInfo(0, 32, decodedData)
+            
             print(dayOfWeek)
         
             
@@ -100,12 +101,30 @@ struct WeatherManager {
         }
     }
     
-    func getDayInfo (rangeLow low: Int, rangeHigh high: Int,_ data: WeatherData) -> [String] {
-        var dayOfWeek: [String]
+    func get5DayInfo(_ start: Int, _ end: Int, _ data: WeatherData) -> [String]  {
+        var dayOfWeek: [String] = []
         
+
+        
+        for i in stride(from: start, to: end, by: 8) {
+            let lowerBound = String.Index(encodedOffset: 0)
+            let upperBound = String.Index(encodedOffset: 10)
+            dayOfWeek.append(String(data.list[i].dt_txt[lowerBound..<upperBound]))
+        }
         
         return dayOfWeek
+        
     }
+    
+    /*func getDayInfo (rangeLow low: Int, rangeHigh high: Int,_ data: WeatherData) -> [String] {
+        var dayOfWeek: [String]
+        
+        dayOfWeek = ["Ana", "Catarina"]
+        
+        //dayOfWeek.append(data.list[0].dt_txt)
+        
+        return dayOfWeek
+    }*/
     
     
     
