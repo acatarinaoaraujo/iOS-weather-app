@@ -466,7 +466,7 @@
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.16637538869999999" green="0.41806013180000001" blue="0.13119468619999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="336" id="Euf-CZ-4Gm"/>
+                                                            <constraint firstAttribute="height" priority="999" constant="336" id="Euf-CZ-4Gm"/>
                                                         </constraints>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YrA-h4-Vem">
@@ -532,9 +532,11 @@
                     <connections>
                         <outlet property="cityLabel" destination="vyA-Vl-rUe" id="gbO-Dg-VDa"/>
                         <outlet property="coordLabel" destination="En9-3V-GbL" id="B9b-QL-mFV"/>
+                        <outlet property="first5DayStack" destination="4Fv-9Z-FRk" id="oAw-0x-IEi"/>
+                        <outlet property="firstStackHeight" destination="Euf-CZ-4Gm" id="GGi-z7-9zJ"/>
                         <outlet property="populationLabel" destination="zor-gZ-Aui" id="RI0-xt-Dxf"/>
                         <outlet property="searchTextField" destination="xeK-uN-ZW4" id="EN3-oB-sfG"/>
-                        <outlet property="view8DaysWeather" destination="pmL-Ze-jgo" id="odh-H2-2K8"/>
+                        <outlet property="view8HoursStack" destination="pmL-Ze-jgo" id="odh-H2-2K8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

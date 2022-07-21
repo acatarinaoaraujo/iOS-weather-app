@@ -18,7 +18,11 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var coordLabel: UILabel!
     
     
-    @IBOutlet weak var view8DaysWeather: UIStackView!
+    @IBOutlet weak var first5DayStack: UIStackView!
+    @IBOutlet weak var view8HoursStack: UIStackView!
+    
+    
+    @IBOutlet weak var firstStackHeight: NSLayoutConstraint!
     
     
     @IBOutlet weak var searchTextField: UITextField!
@@ -36,17 +40,22 @@ class WeatherViewController: UIViewController {
         weatherManager.delegate = self
         searchTextField.delegate = self
         
-        view8DaysWeather.isHidden = true
+        view8HoursStack.isHidden = true
+        firstStackHeight.constant = 100
     }
     
     @IBAction func switchedMoved(_ sender: UISwitch) {
         print("HELLO")
         
         if sender.isOn {
-            view8DaysWeather.isHidden = false
+            view8HoursStack.isHidden = false
+            firstStackHeight.constant = 336
         } else {
-            view8DaysWeather.isHidden = true
+            view8HoursStack.isHidden = true
+            firstStackHeight.constant = 100
         }
+        
+        // self.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height + 20.0)
         
     
     }
