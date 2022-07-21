@@ -103,16 +103,49 @@ struct WeatherManager {
     
     func get5DayInfo(_ start: Int, _ end: Int, _ data: WeatherData) -> [String]  {
         var dayOfWeek: [String] = []
-        
-
+        var dates: [String] = []
         
         for i in stride(from: start, to: end, by: 8) {
             let lowerBound = String.Index(encodedOffset: 0)
             let upperBound = String.Index(encodedOffset: 10)
-            dayOfWeek.append(String(data.list[i].dt_txt[lowerBound..<upperBound]))
+            dates.append(String(data.list[i].dt_txt[lowerBound..<upperBound]))
         }
         
-        return dayOfWeek
+        func getDayOfWeek(_ date:String, format: String) -> String? {
+            
+            let weekDays = [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ]
+
+            let formatter  = DateFormatter()
+            formatter.dateFormat = format
+            guard let myDate = formatter.date(from: date) else { return nil }
+            
+            let myCalendar = Calendar(identifier: .gregorian)
+            let weekDay = myCalendar.component(.weekday, from: myDate)
+            
+            
+            return weekDays[weekDay-1]
+        }
+        
+        for i in 0..5 {
+            if let weekday = getDayOfWeek(dates[i], format:"yyyy-MM-dd") {
+                dayOfWeek.append(weekday)
+            } else {
+                print("Invalid Date")
+            }
+        }
+        
+        print(dayOfWeek)
+        
+        
+        return dates
         
     }
     
