@@ -70,7 +70,7 @@ struct WeatherManager {
             print(lon)
             print(decodedData.self)
             
-            let dayOfWeek = get5DayInfo(0, 32, decodedData)
+            let dayOfWeek = get5DayInfo(0, 33, decodedData)
             
             print(dayOfWeek)
         
@@ -133,8 +133,8 @@ struct WeatherManager {
             
             return weekDays[weekDay-1]
         }
-        
-        for i in 0..5 {
+        print(dates)
+        for i in 0...4 {
             if let weekday = getDayOfWeek(dates[i], format:"yyyy-MM-dd") {
                 dayOfWeek.append(weekday)
             } else {
