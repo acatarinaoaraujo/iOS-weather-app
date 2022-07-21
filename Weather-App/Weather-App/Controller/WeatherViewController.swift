@@ -18,6 +18,8 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var coordLabel: UILabel!
     
     @IBOutlet weak var weekDayLabel: UILabel!
+    @IBOutlet weak var minWeekDayLabel: UILabel!
+    @IBOutlet weak var maxWeekDayLabel: UILabel!
     
     @IBOutlet weak var first5DayStack: UIStackView!
     @IBOutlet weak var view8HoursStack: UIStackView!
