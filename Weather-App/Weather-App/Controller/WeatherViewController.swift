@@ -15,6 +15,7 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var temperatureLabel: UILabel!*/
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var populationLabel: UILabel!
+    @IBOutlet weak var coordLabel: UILabel!
     
     @IBOutlet weak var searchTextField: UITextField!
     
@@ -82,6 +83,8 @@ extension WeatherViewController: WeatherManagerDelegate {
             numberFormatter.numberStyle = .decimal
             
             self.populationLabel.text = "Population: " + (numberFormatter.string(from: NSNumber(value:weather.population)) ?? "0.0")
+            
+            self.coordLabel.text = "Coordinates: [" + String(weather.lat) + "," + String(weather.lon) + "]"
         }
     }
     

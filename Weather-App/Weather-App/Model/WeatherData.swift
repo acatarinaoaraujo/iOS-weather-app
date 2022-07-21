@@ -31,6 +31,13 @@ struct City: Codable {
     let name: String
     let country: String
     let population: Int
+    let coord: Coordinates
+    
+}
+
+struct Coordinates: Codable {
+    let lat: Float
+    let lon: Float
 }
 
 

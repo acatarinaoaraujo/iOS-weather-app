@@ -525,6 +525,7 @@
                     </view>
                     <connections>
                         <outlet property="cityLabel" destination="vyA-Vl-rUe" id="gbO-Dg-VDa"/>
+                        <outlet property="coordLabel" destination="En9-3V-GbL" id="B9b-QL-mFV"/>
                         <outlet property="populationLabel" destination="zor-gZ-Aui" id="RI0-xt-Dxf"/>
                         <outlet property="searchTextField" destination="xeK-uN-ZW4" id="EN3-oB-sfG"/>
                     </connections>
