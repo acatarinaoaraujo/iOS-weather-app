@@ -91,7 +91,7 @@ struct WeatherManager {
              */
             
             //let weather = WeatherModel(conditionId: id, cityName: name, temperature: temp)
-            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon)
+            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, day: dayOfWeek)
             return weather
             
         } catch {
@@ -101,7 +101,10 @@ struct WeatherManager {
     }
     
     func getDayInfo (rangeLow low: Int, rangeHigh high: Int,_ data: WeatherData) -> [String] {
+        var dayOfWeek: [String]
         
+        
+        return dayOfWeek
     }
     
     

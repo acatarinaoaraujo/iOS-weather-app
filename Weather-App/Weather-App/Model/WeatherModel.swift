@@ -13,9 +13,18 @@ struct WeatherModel {
     let cityName: String
     let countryName: String
     let population: Int
-    
+
     let lat: Float
     let lon: Float
+    
+    let day: [String]
+    /*let temp: Float
+    let feels_like: Float
+    let temp_min: Float
+    let temp_max: Float
+
+    let id: Int
+    let description: String*/
     //let temperature: Double
     
     /* Computed Properties: temperatureString & conditionName
