@@ -17,6 +17,10 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var populationLabel: UILabel!
     @IBOutlet weak var coordLabel: UILabel!
     
+    
+    @IBOutlet weak var view8DaysWeather: UIStackView!
+    
+    
     @IBOutlet weak var searchTextField: UITextField!
     
     var weatherManager = WeatherManager()
@@ -31,13 +35,31 @@ class WeatherViewController: UIViewController {
         
         weatherManager.delegate = self
         searchTextField.delegate = self
+        
+        view8DaysWeather.isHidden = true
     }
+    
+    @IBAction func switchedMoved(_ sender: UISwitch) {
+        print("HELLO")
+        
+        if sender.isOn {
+            view8DaysWeather.isHidden = false
+        } else {
+            view8DaysWeather.isHidden = true
+        }
+        
+    
+    }
+    
+    
+    
 
 }
 
 //MARK: - UITextFieldDelegate
 
 extension WeatherViewController: UITextFieldDelegate {
+    
     
     @IBAction func searchPressed(_ sender: UIButton) {
         searchTextField.endEditing(true)
@@ -66,6 +88,7 @@ extension WeatherViewController: UITextFieldDelegate {
         searchTextField.text = ""
         
     }
+    
 }
 
 //MARK: - WeatherManagerDelegate
