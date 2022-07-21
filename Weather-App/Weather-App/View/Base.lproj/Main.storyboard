@@ -96,28 +96,28 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MON JUL 18" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7On-tN-UFk">
-                                                                        <rect key="frame" x="0.0" y="7.5" width="129.5" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="7.5" width="132.5" height="21.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="J6e-dw-b9m">
-                                                                        <rect key="frame" x="129.5" y="2.5" width="64.5" height="31"/>
+                                                                        <rect key="frame" x="132.5" y="2.5" width="66.5" height="31"/>
                                                                         <connections>
                                                                             <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="jJs-YO-J3N"/>
                                                                         </connections>
                                                                     </switch>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CEY-a5-e9S">
-                                                                        <rect key="frame" x="192" y="7.5" width="182" height="21.5"/>
+                                                                        <rect key="frame" x="197" y="7.5" width="177" height="21.5"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIN: 88" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfk-Ge-HiP">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="82" height="21.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="min: 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfk-Ge-HiP">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="79" height="21.5"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAX: 97" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JfE-kU-ORG">
-                                                                                <rect key="frame" x="92" y="0.0" width="90" height="21.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="max: 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JfE-kU-ORG">
+                                                                                <rect key="frame" x="89" y="0.0" width="88" height="21.5"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -534,6 +534,8 @@
                         <outlet property="coordLabel" destination="En9-3V-GbL" id="B9b-QL-mFV"/>
                         <outlet property="first5DayStack" destination="4Fv-9Z-FRk" id="oAw-0x-IEi"/>
                         <outlet property="firstStackHeight" destination="Euf-CZ-4Gm" id="GGi-z7-9zJ"/>
+                        <outlet property="maxWeekDayLabel" destination="JfE-kU-ORG" id="B8Y-dN-FAk"/>
+                        <outlet property="minWeekDayLabel" destination="tfk-Ge-HiP" id="rsO-NQ-sYR"/>
                         <outlet property="populationLabel" destination="zor-gZ-Aui" id="RI0-xt-Dxf"/>
                         <outlet property="searchTextField" destination="xeK-uN-ZW4" id="EN3-oB-sfG"/>
                         <outlet property="view8HoursStack" destination="pmL-Ze-jgo" id="odh-H2-2K8"/>

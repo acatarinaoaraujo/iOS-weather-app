@@ -68,14 +68,13 @@ struct WeatherManager {
             print(population)
             print(lat)
             print(lon)
+            print(decodedData.self)
+            
+            let dayOfWeek = getDayInfo(rangeLow: 0, rangeHigh: 8, decodedData)
+            print(dayOfWeek)
+        
             
             /*
-             let city = decodedData.city[0].name
-             let population = decodedData.city[0].population
-             let country = decodedData.city[0].country
-             let lat  = decodedData.city[0].coord[0].lat
-             let lon  = decodedData.city[0].coord[0].lot
-             
              let temp = decodedData.list[0..40].main[0].temp
              let feels = decodedData.list[0..40].main[0].feels
              
@@ -99,6 +98,10 @@ struct WeatherManager {
             delegate?.didFailWithError(error: error)
             return nil
         }
+    }
+    
+    func getDayInfo (rangeLow low: Int, rangeHigh high: Int,_ data: WeatherData) -> [String] {
+        
     }
     
     
