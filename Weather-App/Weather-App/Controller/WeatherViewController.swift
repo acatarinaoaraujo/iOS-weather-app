@@ -196,12 +196,14 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.coordLabel.isHidden = false
             
             self.cityLabel.text = weather.cityName + ", " + weather.countryName
-            
             self.populationLabel.text = "Population: " + (numberFormatter.string(from: NSNumber(value:weather.population)) ?? "0.0")
-            
             self.coordLabel.text = "Coordinates: [" + String(weather.lat) + "," + String(weather.lon) + "]"
             
             self.day1Label.text = weather.weekDays[0] + " " + weather.dates[0].suffix(5)
+            self.day2Label.text = weather.weekDays[1] + " " + weather.dates[1].suffix(5)
+            self.day3Label.text = weather.weekDays[2] + " " + weather.dates[2].suffix(5)
+            self.day4Label.text = weather.weekDays[3] + " " + weather.dates[3].suffix(5)
+            self.day5Label.text = weather.weekDays[4] + " " + weather.dates[4].suffix(5)
             
 
         }
