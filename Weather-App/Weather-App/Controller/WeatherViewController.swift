@@ -43,8 +43,11 @@ class WeatherViewController: UIViewController {
         weatherManager.delegate = self
         searchTextField.delegate = self
         
+        
         view8HoursStack.isHidden = true
         firstStackHeight.constant = 36
+        
+        
     }
     
     @IBAction func switchedMoved(_ sender: UISwitch) {
@@ -110,14 +113,19 @@ extension WeatherViewController: WeatherManagerDelegate {
         DispatchQueue.main.async {
             //self.temperatureLabel.text = weather.temperatureString
             //self.conditionImageView.image = UIImage(systemName: weather.conditionName)
-            self.cityLabel.text = weather.cityName + ", " + weather.countryName
             
             let numberFormatter = NumberFormatter()
             numberFormatter.numberStyle = .decimal
             
+            self.cityLabel.text = weather.cityName + ", " + weather.countryName
+            
             self.populationLabel.text = "Population: " + (numberFormatter.string(from: NSNumber(value:weather.population)) ?? "0.0")
             
             self.coordLabel.text = "Coordinates: [" + String(weather.lat) + "," + String(weather.lon) + "]"
+            
+            self.weekDayLabel.text = weather.weekDays[0] + " " + weather.dates[0].suffix(5)
+            
+
         }
     }
     
