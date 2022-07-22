@@ -2023,6 +2023,14 @@
                         <outlet property="allStacksHeight" destination="Zza-xv-zk2" id="zOn-R6-aok"/>
                         <outlet property="cityLabel" destination="vyA-Vl-rUe" id="gbO-Dg-VDa"/>
                         <outlet property="coordLabel" destination="En9-3V-GbL" id="B9b-QL-mFV"/>
+                        <outlet property="day1Hour1" destination="hCo-uN-3lZ" id="Wvq-23-II3"/>
+                        <outlet property="day1Hour2" destination="vWB-EE-jnI" id="25a-aR-lqJ"/>
+                        <outlet property="day1Hour3" destination="NfQ-QQ-mIh" id="gqc-0c-hp3"/>
+                        <outlet property="day1Hour4" destination="gA1-XH-zMe" id="e91-V1-V0s"/>
+                        <outlet property="day1Hour5" destination="7ct-V4-wRI" id="HPZ-YT-OK8"/>
+                        <outlet property="day1Hour6" destination="TrB-8t-wju" id="qpa-ZH-aY4"/>
+                        <outlet property="day1Hour7" destination="dPu-be-mp5" id="J34-Is-eLq"/>
+                        <outlet property="day1Hour8" destination="dgX-fn-qQ3" id="j6r-cd-Zlg"/>
                         <outlet property="day1Label" destination="7On-tN-UFk" id="bgS-fs-D2K"/>
                         <outlet property="day2Label" destination="Vs5-Bd-CMz" id="wVt-I2-FHM"/>
                         <outlet property="day3Label" destination="KWS-EO-tJV" id="Hgq-5s-PdC"/>

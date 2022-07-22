@@ -24,14 +24,12 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var first8HoursStack: UIStackView!
     @IBOutlet weak var firstStackHeight: NSLayoutConstraint!
     
-    
     @IBOutlet weak var day2Label: UILabel!
     @IBOutlet weak var min2DayLabel: UILabel!
     @IBOutlet weak var max2DayLabel: UILabel!
     @IBOutlet weak var sec5DayStack: UIStackView!
     @IBOutlet weak var sec8HoursStack: UIStackView!
     @IBOutlet weak var secStackHeight: NSLayoutConstraint!
-    
     
     @IBOutlet weak var day3Label: UILabel!
     @IBOutlet weak var min3DayLabel: UILabel!
@@ -62,11 +60,20 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var fivSwitch: UISwitch!
     
     
+    
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var allStacksHeight: NSLayoutConstraint!
     
     
-
+    @IBOutlet weak var day1Hour1: UILabel!
+    @IBOutlet weak var day1Hour2: UILabel!
+    @IBOutlet weak var day1Hour3: UILabel!
+    @IBOutlet weak var day1Hour4: UILabel!
+    @IBOutlet weak var day1Hour5: UILabel!
+    @IBOutlet weak var day1Hour6: UILabel!
+    @IBOutlet weak var day1Hour7: UILabel!
+    @IBOutlet weak var day1Hour8: UILabel!
+    
     
     @IBOutlet weak var searchTextField: UITextField!
     
@@ -205,6 +212,15 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.day3Label.text = weather.weekDays[2] + " " + weather.dates[2].suffix(5)
             self.day4Label.text = weather.weekDays[3] + " " + weather.dates[3].suffix(5)
             self.day5Label.text = weather.weekDays[4] + " " + weather.dates[4].suffix(5)
+            
+            self.day1Hour1.text = weather.hours[5]
+            self.day1Hour2.text = weather.hours[6]
+            self.day1Hour3.text = weather.hours[7]
+            self.day1Hour4.text = weather.hours[0]
+            self.day1Hour5.text = weather.hours[1]
+            self.day1Hour6.text = weather.hours[2]
+            self.day1Hour7.text = weather.hours[3]
+            self.day1Hour8.text = weather.hours[4]
             
             
 
