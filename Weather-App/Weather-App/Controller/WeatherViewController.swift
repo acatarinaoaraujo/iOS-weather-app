@@ -26,6 +26,14 @@ class WeatherViewController: UIViewController {
     
     
     @IBOutlet weak var day2Label: UILabel!
+    @IBOutlet weak var min2DayLabel: UILabel!
+    @IBOutlet weak var max2DayLabel: UILabel!
+    @IBOutlet weak var sec5DayStack: UIStackView!
+    @IBOutlet weak var sec8HoursStack: UIStackView!
+    @IBOutlet weak var secStackHeight: NSLayoutConstraint!
+    
+    
+    
     
     
     @IBOutlet weak var searchTextField: UITextField!
