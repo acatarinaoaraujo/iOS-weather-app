@@ -64,33 +64,8 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var allStacksHeight: NSLayoutConstraint!
     
-    
-   /* @IBOutlet weak var day1Hour1: UILabel!
-    @IBOutlet weak var day1Hour2: UILabel!
-    @IBOutlet weak var day1Hour3: UILabel!
-    @IBOutlet weak var day1Hour4: UILabel!
-    @IBOutlet weak var day1Hour5: UILabel!
-    @IBOutlet weak var day1Hour6: UILabel!
-    @IBOutlet weak var day1Hour7: UILabel!
-    @IBOutlet weak var day1Hour8: UILabel!
-    
-    @IBOutlet weak var day2Hour1: UILabel!
-    @IBOutlet weak var day2Hour2: UILabel!
-    @IBOutlet weak var day2Hour3: UILabel!
-    @IBOutlet weak var day2Hour4: UILabel!
-    @IBOutlet weak var day2Hour5: UILabel!
-    @IBOutlet weak var day2Hour6: UILabel!
-    @IBOutlet weak var day2Hour7: UILabel!
-    @IBOutlet weak var day2Hour8: UILabel!
-    
-    @IBOutlet weak var day3Hour1: UILabel!
-    @IBOutlet weak var day3Hour2: UILabel!
-    @IBOutlet weak var day3Hour3: UILabel!
-    @IBOutlet weak var day3Hour4: UILabel!
-    @IBOutlet weak var day3Hour5: UILabel!
-    @IBOutlet weak var day3Hour6: UILabel!
-    @IBOutlet weak var day3Hour7: UILabel!
-    @IBOutlet weak var day3Hour8: UILabel!*/
+
+
     
     
     @IBOutlet weak var searchTextField: UITextField!
@@ -231,32 +206,6 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.day4Label.text = weather.weekDays[3] + " " + weather.dates[3].suffix(5)
             self.day5Label.text = weather.weekDays[4] + " " + weather.dates[4].suffix(5)
             
-           /* self.day1Hour1.text = weather.hours[5]
-            self.day1Hour2.text = weather.hours[6]
-            self.day1Hour3.text = weather.hours[7]
-            self.day1Hour4.text = weather.hours[0]
-            self.day1Hour5.text = weather.hours[1]
-            self.day1Hour6.text = weather.hours[2]
-            self.day1Hour7.text = weather.hours[3]
-            self.day1Hour8.text = weather.hours[4]
-            
-            self.day2Hour1.text = weather.hours[13]
-            self.day2Hour2.text = weather.hours[14]
-            self.day2Hour3.text = weather.hours[15]
-            self.day2Hour4.text = weather.hours[8]
-            self.day2Hour5.text = weather.hours[9]
-            self.day2Hour6.text = weather.hours[10]
-            self.day2Hour7.text = weather.hours[11]
-            self.day2Hour8.text = weather.hours[12]
-            
-            self.day3Hour1.text = weather.hours[21]
-            self.day3Hour2.text = weather.hours[22]
-            self.day3Hour3.text = weather.hours[23]
-            self.day3Hour4.text = weather.hours[16]
-            self.day3Hour5.text = weather.hours[17]
-            self.day3Hour6.text = weather.hours[18]
-            self.day3Hour7.text = weather.hours[19]
-            self.day3Hour8.text = weather.hours[20]*/
             
         
         }

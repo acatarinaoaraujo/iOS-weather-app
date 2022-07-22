@@ -67,27 +67,10 @@ struct WeatherManager {
             let dates = tupleDates.0
             let dayOfWeek = tupleDates.1
         
-            //let hours = getHoursInfo(0, 40, decodedData)
-            //print(hours)
+            let description = getWeatherDescription(0, 40, decodedData)
+            print(description)
             
-            /*
-             let temp = decodedData.list[0..40].main[0].temp
-             let feels = decodedData.list[0..40].main[0].feels
-             
-             let id = decodedData.list[0..40].weather[0].id
-             let description = decodedData.list[0..40].weather[0].description
-             
-             let day = decodedData.list[0..40].dt_txt (first part)
-             let time = decodedData.list[0..40].dt_txt (second part)
-             
-             let maxTempDay = max(decodedData.list[0..8].main[0].temp_max)
-             let minTempDay = min(decodedData.list[0..8].main[0].temp_min)
-             let dayOfWeek = find day of week
-             
-             */
-            
-            //let weather = WeatherModel(conditionId: id, cityName: name, temperature: temp)
-            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates)
+            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates, description: description)
             return weather
             
         } catch {
@@ -130,12 +113,12 @@ struct WeatherManager {
         
     }
     
-    func getHoursInfo(_ start: Int, _ end: Int, _ data: WeatherData) -> [String] {
+    func getWeatherDescription(_ start: Int, _ end: Int, _ data: WeatherData) -> [String] {
         var hours: [String] = []
         
         for i in start...end - 1 {
-            let hour = data.list[i].dt_txt.split(separator: " ")
-            hours.append(String(hour[1].prefix(5)))
+            let hourDescription = data.list[i].weather[0].description
+            hours.append(String(hourDescription))
         }
         
         return hours
