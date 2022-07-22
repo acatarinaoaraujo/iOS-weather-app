@@ -64,6 +64,9 @@ class WeatherViewController: UIViewController {
     
 
     
+    
+
+    
     @IBOutlet weak var searchTextField: UITextField!
     
     var weatherManager = WeatherManager()
@@ -79,12 +82,22 @@ class WeatherViewController: UIViewController {
         weatherManager.delegate = self
         searchTextField.delegate = self
         
+        scrollView.isHidden = true
         
         first8HoursStack.isHidden = true
         firstStackHeight.constant = 36
         
         sec8HoursStack.isHidden = true
+        secStackHeight.constant = 36
+        
+        thr8HoursStack.isHidden = true
+        thrStackHeight.constant = 36
+        
+        four8HoursStack.isHidden = true
         fourStackHeight.constant = 36
+        
+        five8HoursStack.isHidden = true
+        fiveStackHeight.constant = 36
         
         
     }
