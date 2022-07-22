@@ -17,15 +17,15 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var populationLabel: UILabel!
     @IBOutlet weak var coordLabel: UILabel!
     
-    @IBOutlet weak var weekDayLabel: UILabel!
-    @IBOutlet weak var minWeekDayLabel: UILabel!
-    @IBOutlet weak var maxWeekDayLabel: UILabel!
-    
+    @IBOutlet weak var day1Label: UILabel!
+    @IBOutlet weak var min1DayLabel: UILabel!
+    @IBOutlet weak var max1DayLabel: UILabel!
     @IBOutlet weak var first5DayStack: UIStackView!
     @IBOutlet weak var first8HoursStack: UIStackView!
-    
-    
     @IBOutlet weak var firstStackHeight: NSLayoutConstraint!
+    
+    
+    @IBOutlet weak var day2Label: UILabel!
     
     
     @IBOutlet weak var searchTextField: UITextField!
@@ -123,7 +123,7 @@ extension WeatherViewController: WeatherManagerDelegate {
             
             self.coordLabel.text = "Coordinates: [" + String(weather.lat) + "," + String(weather.lon) + "]"
             
-            self.weekDayLabel.text = weather.weekDays[0] + " " + weather.dates[0].suffix(5)
+            self.day1Label.text = weather.weekDays[0] + " " + weather.dates[0].suffix(5)
             
 
         }
