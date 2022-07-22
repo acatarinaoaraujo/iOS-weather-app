@@ -83,6 +83,11 @@ class WeatherViewController: UIViewController {
         weatherManager.delegate = self
         searchTextField.delegate = self
         
+        initialSetUp()
+        
+    }
+    
+    func initialSetUp () {
         scrollView.isHidden = true
         cityLabel.isHidden = true
         populationLabel.isHidden = true
@@ -104,8 +109,6 @@ class WeatherViewController: UIViewController {
         fiveStackHeight.constant = 36
         
         allStacksHeight.constant = 180
-        
-        
     }
     
     @IBAction func switchedMoved(_ sender: UISwitch) {
@@ -117,6 +120,7 @@ class WeatherViewController: UIViewController {
         modifyStacks(fivSwitch.isOn, five8HoursStack, fiveStackHeight)
     
     }
+    
     
     func modifyStacks(_ state: Bool, _ stack: UIStackView, _ height: NSLayoutConstraint) {
         
