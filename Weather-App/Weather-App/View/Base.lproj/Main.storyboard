@@ -2031,12 +2031,14 @@
                         <outlet property="first8HoursStack" destination="pmL-Ze-jgo" id="odh-H2-2K8"/>
                         <outlet property="firstStackHeight" destination="Euf-CZ-4Gm" id="GGi-z7-9zJ"/>
                         <outlet property="firstSwitch" destination="J6e-dw-b9m" id="5vC-NW-ICA"/>
+                        <outlet property="fivSwitch" destination="GU1-kt-Wce" id="TT0-AL-IDI"/>
                         <outlet property="five5DayStack" destination="8uK-UC-A62" id="mMl-9t-ThX"/>
                         <outlet property="five8HoursStack" destination="Z8X-Jw-OiU" id="BMW-t8-zvz"/>
                         <outlet property="fiveStackHeight" destination="bgM-6n-RVX" id="pv3-pO-saO"/>
                         <outlet property="four5DayStack" destination="PoP-4Y-OyH" id="ZCo-76-qpE"/>
                         <outlet property="four8HoursStack" destination="OeY-Pc-Zec" id="G1M-Ut-WDp"/>
                         <outlet property="fourStackHeight" destination="rUv-o7-jyb" id="Bvb-L4-piN"/>
+                        <outlet property="fourSwitch" destination="QPH-0f-j7K" id="X9h-lv-Z9Y"/>
                         <outlet property="max1DayLabel" destination="JfE-kU-ORG" id="YPf-lc-iv9"/>
                         <outlet property="max2DayLabel" destination="3Pg-WY-KDn" id="eDl-cZ-Z08"/>
                         <outlet property="max3DayLabel" destination="Z8U-yg-p4f" id="6qa-89-3gc"/>
@@ -2052,6 +2054,8 @@
                         <outlet property="sec5DayStack" destination="YrA-h4-Vem" id="J0r-XI-kSe"/>
                         <outlet property="sec8HoursStack" destination="f2o-m6-pF9" id="2ci-q1-09R"/>
                         <outlet property="secStackHeight" destination="iJu-4U-Vbj" id="cnu-Yn-O4a"/>
+                        <outlet property="secSwitch" destination="PAV-VZ-cdg" id="aYK-ca-aJd"/>
+                        <outlet property="thirdSwitch" destination="km7-aw-CCp" id="oTf-ra-Dzp"/>
                         <outlet property="thr5DayStack" destination="IVW-bM-Oxc" id="tBX-DE-mgO"/>
                         <outlet property="thr8HoursStack" destination="cMK-QB-Btw" id="oEV-wl-o38"/>
                         <outlet property="thrStackHeight" destination="5aa-PP-46w" id="BJl-gA-eOC"/>

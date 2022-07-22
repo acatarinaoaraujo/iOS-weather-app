@@ -56,6 +56,11 @@ class WeatherViewController: UIViewController {
     
     
     @IBOutlet weak var firstSwitch: UISwitch!
+    @IBOutlet weak var secSwitch: UISwitch!
+    @IBOutlet weak var thirdSwitch: UISwitch!
+    @IBOutlet weak var fourSwitch: UISwitch!
+    @IBOutlet weak var fivSwitch: UISwitch!
+    
     
     
     
