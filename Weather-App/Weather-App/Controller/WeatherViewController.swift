@@ -120,17 +120,19 @@ class WeatherViewController: UIViewController {
     
     func modifyStacks(_ state: Bool, _ stack: UIStackView, _ height: NSLayoutConstraint) {
         
-        //var counterHeigh = 180
+        var counterHeigh = 180
         
         if state {
             stack.isHidden = false
             height.constant = 336
+            counterHeigh += 330
         } else {
             stack.isHidden = true
             height.constant = 36
+            counterHeigh -= 330
         }
         
-        //allStacksHeight.constant = CGFloat(counterHeigh)
+        allStacksHeight.constant = CGFloat(counterHeigh)
         
     }
 
