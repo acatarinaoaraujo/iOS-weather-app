@@ -22,7 +22,7 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var maxWeekDayLabel: UILabel!
     
     @IBOutlet weak var first5DayStack: UIStackView!
-    @IBOutlet weak var view8HoursStack: UIStackView!
+    @IBOutlet weak var first8HoursStack: UIStackView!
     
     
     @IBOutlet weak var firstStackHeight: NSLayoutConstraint!
@@ -44,7 +44,7 @@ class WeatherViewController: UIViewController {
         searchTextField.delegate = self
         
         
-        view8HoursStack.isHidden = true
+        first8HoursStack.isHidden = true
         firstStackHeight.constant = 36
         
         
@@ -54,10 +54,10 @@ class WeatherViewController: UIViewController {
         print("HELLO")
         
         if sender.isOn {
-            view8HoursStack.isHidden = false
+            first8HoursStack.isHidden = false
             firstStackHeight.constant = 336
         } else {
-            view8HoursStack.isHidden = true
+            first8HoursStack.isHidden = true
             firstStackHeight.constant = 36
         }
         
