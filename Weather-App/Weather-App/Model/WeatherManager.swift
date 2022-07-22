@@ -67,8 +67,8 @@ struct WeatherManager {
             let dates = tupleDates.0
             let dayOfWeek = tupleDates.1
         
-            let hours = getHoursInfo(0, 40, decodedData)
-            print(hours)
+            //let hours = getHoursInfo(0, 40, decodedData)
+            //print(hours)
             
             /*
              let temp = decodedData.list[0..40].main[0].temp
@@ -87,7 +87,7 @@ struct WeatherManager {
              */
             
             //let weather = WeatherModel(conditionId: id, cityName: name, temperature: temp)
-            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates, hours: hours)
+            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates)
             return weather
             
         } catch {

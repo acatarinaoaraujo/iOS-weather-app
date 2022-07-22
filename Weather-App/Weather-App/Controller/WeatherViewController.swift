@@ -65,7 +65,7 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var allStacksHeight: NSLayoutConstraint!
     
     
-    @IBOutlet weak var day1Hour1: UILabel!
+   /* @IBOutlet weak var day1Hour1: UILabel!
     @IBOutlet weak var day1Hour2: UILabel!
     @IBOutlet weak var day1Hour3: UILabel!
     @IBOutlet weak var day1Hour4: UILabel!
@@ -90,7 +90,7 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var day3Hour5: UILabel!
     @IBOutlet weak var day3Hour6: UILabel!
     @IBOutlet weak var day3Hour7: UILabel!
-    @IBOutlet weak var day3Hour8: UILabel!
+    @IBOutlet weak var day3Hour8: UILabel!*/
     
     
     @IBOutlet weak var searchTextField: UITextField!
@@ -231,7 +231,7 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.day4Label.text = weather.weekDays[3] + " " + weather.dates[3].suffix(5)
             self.day5Label.text = weather.weekDays[4] + " " + weather.dates[4].suffix(5)
             
-            self.day1Hour1.text = weather.hours[5]
+           /* self.day1Hour1.text = weather.hours[5]
             self.day1Hour2.text = weather.hours[6]
             self.day1Hour3.text = weather.hours[7]
             self.day1Hour4.text = weather.hours[0]
@@ -256,10 +256,9 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.day3Hour5.text = weather.hours[17]
             self.day3Hour6.text = weather.hours[18]
             self.day3Hour7.text = weather.hours[19]
-            self.day3Hour8.text = weather.hours[20]
+            self.day3Hour8.text = weather.hours[20]*/
             
-            
-
+        
         }
     }
     
