@@ -106,9 +106,9 @@ struct WeatherManager {
         var dates: [String] = []
         
         for i in stride(from: start, to: end, by: 8) {
-            let lower = String.Index(encodedOffset: 0)
-            let upper = String.Index(encodedOffset: 10)
-            dates.append(String(data.list[i].dt_txt[lower..<upper]))
+            //let lower = String.Index(encodedOffset: 0)
+            //let upper = String.Index(encodedOffset: 10)
+            dates.append(String(data.list[i].dt_txt.prefix(10)))
         }
         
         func getDayOfWeek(_ date:String, format: String) -> String? {
