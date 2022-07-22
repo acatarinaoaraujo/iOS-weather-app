@@ -103,7 +103,7 @@ class WeatherViewController: UIViewController {
         five8HoursStack.isHidden = true
         fiveStackHeight.constant = 36
         
-        allStacksHeight.constant = 500
+        allStacksHeight.constant = 180
         
         
     }
