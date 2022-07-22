@@ -62,12 +62,7 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var fivSwitch: UISwitch!
     
     
-    
-    
-    
-    
-    
-    
+
     
     @IBOutlet weak var searchTextField: UITextField!
     
@@ -88,26 +83,33 @@ class WeatherViewController: UIViewController {
         first8HoursStack.isHidden = true
         firstStackHeight.constant = 36
         
+        sec8HoursStack.isHidden = true
+        fourStackHeight.constant = 36
+        
         
     }
     
     @IBAction func switchedMoved(_ sender: UISwitch) {
- 
-        print(firstSwitch.isOn)
-        
-        if sender.isOn {
-            first8HoursStack.isHidden = false
-            firstStackHeight.constant = 336
-        } else {
-            first8HoursStack.isHidden = true
-            firstStackHeight.constant = 36
-        }
-        
+
+        modifyStacks(firstSwitch.isOn, first8HoursStack, firstStackHeight)
+        modifyStacks(secSwitch.isOn, sec8HoursStack, secStackHeight)
+        modifyStacks(thirdSwitch.isOn, thr8HoursStack, thrStackHeight)
+        modifyStacks(fourSwitch.isOn, four8HoursStack, fourStackHeight)
+        modifyStacks(fivSwitch.isOn, five8HoursStack, fiveStackHeight)
     
     }
     
-    
-    
+    func modifyStacks(_ state: Bool, _ stack: UIStackView, _ height: NSLayoutConstraint) {
+        
+        if state {
+            stack.isHidden = false
+            height.constant = 336
+        } else {
+            stack.isHidden = true
+            height.constant = 36
+        }
+        
+    }
 
 }
 
