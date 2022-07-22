@@ -2032,7 +2032,23 @@
                         <outlet property="day1Hour7" destination="dPu-be-mp5" id="J34-Is-eLq"/>
                         <outlet property="day1Hour8" destination="dgX-fn-qQ3" id="j6r-cd-Zlg"/>
                         <outlet property="day1Label" destination="7On-tN-UFk" id="bgS-fs-D2K"/>
+                        <outlet property="day2Hour1" destination="qG2-BP-mF8" id="fXr-qk-JM6"/>
+                        <outlet property="day2Hour2" destination="xi2-lb-eKn" id="hKo-fY-0il"/>
+                        <outlet property="day2Hour3" destination="zSR-1V-WRJ" id="AEp-Bg-FF2"/>
+                        <outlet property="day2Hour4" destination="lkp-Ak-gF3" id="4KP-Px-dW3"/>
+                        <outlet property="day2Hour5" destination="Ame-QX-LPR" id="hzi-px-Hio"/>
+                        <outlet property="day2Hour6" destination="pwe-27-fcu" id="i6C-J2-Bck"/>
+                        <outlet property="day2Hour7" destination="huG-Re-bwC" id="oLh-2P-FSV"/>
+                        <outlet property="day2Hour8" destination="mfR-rb-1qa" id="dJm-h1-h5x"/>
                         <outlet property="day2Label" destination="Vs5-Bd-CMz" id="wVt-I2-FHM"/>
+                        <outlet property="day3Hour1" destination="iYL-51-dQx" id="33Z-iu-fyu"/>
+                        <outlet property="day3Hour2" destination="B4Y-va-mOe" id="1ld-ac-2Lb"/>
+                        <outlet property="day3Hour3" destination="vHn-HA-0XP" id="m8U-fY-5QL"/>
+                        <outlet property="day3Hour4" destination="DjO-77-aUM" id="du0-1G-c8c"/>
+                        <outlet property="day3Hour5" destination="13L-9F-lnU" id="gto-qW-deq"/>
+                        <outlet property="day3Hour6" destination="kSd-YJ-c9s" id="oJq-3r-JvX"/>
+                        <outlet property="day3Hour7" destination="ywH-ry-yDt" id="5El-Hj-Qcd"/>
+                        <outlet property="day3Hour8" destination="isn-TM-b5N" id="DVG-eD-hQe"/>
                         <outlet property="day3Label" destination="KWS-EO-tJV" id="Hgq-5s-PdC"/>
                         <outlet property="day4Label" destination="B0B-IO-8zC" id="riE-2p-mqY"/>
                         <outlet property="day5Label" destination="rkW-x8-eYP" id="L4D-e1-bsg"/>
