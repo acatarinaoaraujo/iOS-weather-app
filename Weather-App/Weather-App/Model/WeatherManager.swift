@@ -63,17 +63,12 @@ struct WeatherManager {
             let lat  = decodedData.city.coord.lat
             let lon  = decodedData.city.coord.lon
             
-            print(name)
-            print(country)
-            print(population)
-            print(lat)
-            print(lon)
-            //print(decodedData.self)
-            
-            let tupleDates = get5DayInfo(0, 33, decodedData)
+            let tupleDates = get5DayInfo(0, 32, decodedData)
             let dates = tupleDates.0
             let dayOfWeek = tupleDates.1
         
+            let hours = getHoursInfo(0, 40, decodedData)
+            print(hours)
             
             /*
              let temp = decodedData.list[0..40].main[0].temp
@@ -92,7 +87,7 @@ struct WeatherManager {
              */
             
             //let weather = WeatherModel(conditionId: id, cityName: name, temperature: temp)
-            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates)
+            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates, hours: hours)
             return weather
             
         } catch {
@@ -105,9 +100,7 @@ struct WeatherManager {
         var dayOfWeek: [String] = []
         var dates: [String] = []
         
-        for i in stride(from: start, to: end, by: 8) {
-            //let lower = String.Index(encodedOffset: 0)
-            //let upper = String.Index(encodedOffset: 10)
+        for i in stride(from: start, to: end + 1, by: 8) {
             dates.append(String(data.list[i].dt_txt.prefix(10)))
         }
         
@@ -137,6 +130,18 @@ struct WeatherManager {
         
     }
     
+    func getHoursInfo(_ start: Int, _ end: Int, _ data: WeatherData) -> [String] {
+        var hours: [String] = []
+        
+        for i in start...end - 1 {
+            let hour = data.list[i].dt_txt.split(separator: " ")
+            hours.append(String(hour[1].prefix(5)))
+        }
+        
+        return hours
+        
+    }
+    
     /*func getDayInfo (rangeLow low: Int, rangeHigh high: Int,_ data: WeatherData) -> [String] {
         var dayOfWeek: [String]
         
@@ -147,8 +152,7 @@ struct WeatherManager {
         return dayOfWeek
     }*/
     
-    
-    
+
 }
 
 

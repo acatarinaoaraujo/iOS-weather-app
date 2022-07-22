@@ -88,6 +88,7 @@ class WeatherViewController: UIViewController {
     }
     
     func initialSetUp () {
+        
         scrollView.isHidden = true
         cityLabel.isHidden = true
         populationLabel.isHidden = true
@@ -204,6 +205,7 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.day3Label.text = weather.weekDays[2] + " " + weather.dates[2].suffix(5)
             self.day4Label.text = weather.weekDays[3] + " " + weather.dates[3].suffix(5)
             self.day5Label.text = weather.weekDays[4] + " " + weather.dates[4].suffix(5)
+            
             
 
         }
