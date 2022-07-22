@@ -59,13 +59,18 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var fourSwitch: UISwitch!
     @IBOutlet weak var fivSwitch: UISwitch!
     
+    @IBOutlet weak var day1Description1: UILabel!
+    @IBOutlet weak var day1Description2: UILabel!
+    @IBOutlet weak var day1Description3: UILabel!
+    @IBOutlet weak var day1Description4: UILabel!
+    @IBOutlet weak var day1Description5: UILabel!
+    @IBOutlet weak var day1Description6: UILabel!
+    @IBOutlet weak var day1Description7: UILabel!
+    @IBOutlet weak var day1Description8: UILabel!
     
     
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var allStacksHeight: NSLayoutConstraint!
-    
-
-
     
     
     @IBOutlet weak var searchTextField: UITextField!
@@ -206,6 +211,14 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.day4Label.text = weather.weekDays[3] + " " + weather.dates[3].suffix(5)
             self.day5Label.text = weather.weekDays[4] + " " + weather.dates[4].suffix(5)
             
+            self.day1Description1.text = weather.description[5]
+            self.day1Description2.text = weather.description[6]
+            self.day1Description3.text = weather.description[7]
+            self.day1Description4.text = weather.description[0]
+            self.day1Description5.text = weather.description[1]
+            self.day1Description6.text = weather.description[2]
+            self.day1Description7.text = weather.description[3]
+            self.day1Description8.text = weather.description[4]
             
         
         }

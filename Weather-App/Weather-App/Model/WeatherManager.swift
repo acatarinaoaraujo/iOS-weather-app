@@ -114,14 +114,15 @@ struct WeatherManager {
     }
     
     func getWeatherDescription(_ start: Int, _ end: Int, _ data: WeatherData) -> [String] {
-        var hours: [String] = []
+        var description: [String] = []
         
         for i in start...end - 1 {
             let hourDescription = data.list[i].weather[0].description
-            hours.append(String(hourDescription))
+            description.append(String(hourDescription))
+            print(description)
         }
         
-        return hours
+        return description
         
     }
     
