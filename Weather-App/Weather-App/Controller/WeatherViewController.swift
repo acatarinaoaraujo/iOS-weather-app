@@ -62,7 +62,8 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var fivSwitch: UISwitch!
     
     
-
+    @IBOutlet weak var scrollView: UIScrollView!
+    
     
     
 
@@ -83,6 +84,9 @@ class WeatherViewController: UIViewController {
         searchTextField.delegate = self
         
         scrollView.isHidden = true
+        cityLabel.isHidden = true
+        populationLabel.isHidden = true
+        coordLabel.isHidden = true
         
         first8HoursStack.isHidden = true
         firstStackHeight.constant = 36
@@ -173,6 +177,11 @@ extension WeatherViewController: WeatherManagerDelegate {
             
             let numberFormatter = NumberFormatter()
             numberFormatter.numberStyle = .decimal
+            
+            self.scrollView.isHidden = false
+            self.cityLabel.isHidden = false
+            self.populationLabel.isHidden = false
+            self.coordLabel.isHidden = false
             
             self.cityLabel.text = weather.cityName + ", " + weather.countryName
             
