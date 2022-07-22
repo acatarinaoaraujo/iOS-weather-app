@@ -53,7 +53,10 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var five5DayStack: UIStackView!
     @IBOutlet weak var five8HoursStack: UIStackView!
     @IBOutlet weak var fiveStackHeight: NSLayoutConstraint!
-
+    
+    
+    @IBOutlet weak var firstSwitch: UISwitch!
+    
     
     
     
@@ -84,7 +87,8 @@ class WeatherViewController: UIViewController {
     }
     
     @IBAction func switchedMoved(_ sender: UISwitch) {
-        print("HELLO")
+ 
+        print(firstSwitch.isOn)
         
         if sender.isOn {
             first8HoursStack.isHidden = false

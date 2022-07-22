@@ -96,28 +96,28 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7On-tN-UFk">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="188.5" height="36"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="189.5" height="36"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="J6e-dw-b9m">
-                                                                        <rect key="frame" x="188.5" y="2.5" width="51" height="31"/>
+                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="firstSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="J6e-dw-b9m">
+                                                                        <rect key="frame" x="189.5" y="2.5" width="51" height="31"/>
                                                                         <connections>
                                                                             <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="jJs-YO-J3N"/>
                                                                         </connections>
                                                                     </switch>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CEY-a5-e9S">
-                                                                        <rect key="frame" x="237.5" y="7.5" width="136.5" height="21.5"/>
+                                                                        <rect key="frame" x="238.5" y="7.5" width="135.5" height="21.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="min: 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfk-Ge-HiP">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="61" height="21.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="60.5" height="21.5"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="max: 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JfE-kU-ORG">
-                                                                                <rect key="frame" x="71" y="0.0" width="65.5" height="21.5"/>
+                                                                                <rect key="frame" x="70.5" y="0.0" width="65" height="21.5"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -476,25 +476,28 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vs5-Bd-CMz">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="189" height="36"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="189.5" height="36"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PAV-VZ-cdg">
-                                                                        <rect key="frame" x="189" y="2.5" width="51" height="31"/>
+                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="secSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="PAV-VZ-cdg">
+                                                                        <rect key="frame" x="189.5" y="2.5" width="51" height="31"/>
+                                                                        <connections>
+                                                                            <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ssg-LA-p5O"/>
+                                                                        </connections>
                                                                     </switch>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TfZ-jg-ABs">
-                                                                        <rect key="frame" x="238" y="7.5" width="136" height="21.5"/>
+                                                                        <rect key="frame" x="238.5" y="7.5" width="135.5" height="21.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="min: 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPM-2J-Z5q">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="61" height="21.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="60.5" height="21.5"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="max: 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Pg-WY-KDn">
-                                                                                <rect key="frame" x="71" y="0.0" width="65" height="21.5"/>
+                                                                                <rect key="frame" x="70.5" y="0.0" width="65" height="21.5"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -857,8 +860,11 @@
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="km7-aw-CCp">
+                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="thirSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="km7-aw-CCp">
                                                                         <rect key="frame" x="132.5" y="2.5" width="66.5" height="31"/>
+                                                                        <connections>
+                                                                            <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="mcG-1t-Nht"/>
+                                                                        </connections>
                                                                     </switch>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Cjv-5u-Ypm">
                                                                         <rect key="frame" x="197" y="7.5" width="177" height="21.5"/>
@@ -1233,8 +1239,11 @@
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QPH-0f-j7K">
+                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="forSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="QPH-0f-j7K">
                                                                         <rect key="frame" x="132.5" y="2.5" width="66.5" height="31"/>
+                                                                        <connections>
+                                                                            <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="gaq-Ja-nSf"/>
+                                                                        </connections>
                                                                     </switch>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="505-UW-Pwm">
                                                                         <rect key="frame" x="197" y="7.5" width="177" height="21.5"/>
@@ -1609,8 +1618,11 @@
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GU1-kt-Wce">
+                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="fifSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="GU1-kt-Wce">
                                                                         <rect key="frame" x="132.5" y="2.5" width="66.5" height="31"/>
+                                                                        <connections>
+                                                                            <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="UVd-Kp-NPv"/>
+                                                                        </connections>
                                                                     </switch>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RB3-wb-Sfo">
                                                                         <rect key="frame" x="197" y="7.5" width="177" height="21.5"/>
@@ -2018,6 +2030,7 @@
                         <outlet property="first5DayStack" destination="4Fv-9Z-FRk" id="oAw-0x-IEi"/>
                         <outlet property="first8HoursStack" destination="pmL-Ze-jgo" id="odh-H2-2K8"/>
                         <outlet property="firstStackHeight" destination="Euf-CZ-4Gm" id="GGi-z7-9zJ"/>
+                        <outlet property="firstSwitch" destination="J6e-dw-b9m" id="5vC-NW-ICA"/>
                         <outlet property="five5DayStack" destination="8uK-UC-A62" id="mMl-9t-ThX"/>
                         <outlet property="five8HoursStack" destination="Z8X-Jw-OiU" id="BMW-t8-zvz"/>
                         <outlet property="fiveStackHeight" destination="bgM-6n-RVX" id="pv3-pO-saO"/>
@@ -2029,13 +2042,11 @@
                         <outlet property="max3DayLabel" destination="Z8U-yg-p4f" id="6qa-89-3gc"/>
                         <outlet property="max4DayLabel" destination="DAl-cs-1Wi" id="0yD-KS-MZw"/>
                         <outlet property="max5DayLabel" destination="XY6-SM-Eb4" id="WNi-5G-v6x"/>
-                        <outlet property="maxWeekDayLabel" destination="JfE-kU-ORG" id="B8Y-dN-FAk"/>
                         <outlet property="min1DayLabel" destination="tfk-Ge-HiP" id="WN5-bs-HPv"/>
                         <outlet property="min2DayLabel" destination="rPM-2J-Z5q" id="tXu-2e-Yll"/>
                         <outlet property="min3DayLabel" destination="dTF-tI-lgk" id="9QF-Tl-xwT"/>
                         <outlet property="min4DayLabel" destination="A8i-pc-rEz" id="KTi-yf-PT1"/>
                         <outlet property="min5DayLabel" destination="ikJ-A8-pFC" id="wLI-AZ-hV1"/>
-                        <outlet property="minWeekDayLabel" destination="tfk-Ge-HiP" id="rsO-NQ-sYR"/>
                         <outlet property="populationLabel" destination="zor-gZ-Aui" id="RI0-xt-Dxf"/>
                         <outlet property="searchTextField" destination="xeK-uN-ZW4" id="EN3-oB-sfG"/>
                         <outlet property="sec5DayStack" destination="YrA-h4-Vem" id="J0r-XI-kSe"/>
