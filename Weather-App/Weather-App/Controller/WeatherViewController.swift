@@ -45,14 +45,6 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var four8HoursStack: UIStackView!
     @IBOutlet weak var fourStackHeight: NSLayoutConstraint!
     
-    @IBOutlet weak var day5Label: UILabel!
-    @IBOutlet weak var min5DayLabel: UILabel!
-    @IBOutlet weak var max5DayLabel: UILabel!
-    @IBOutlet weak var five5DayStack: UIStackView!
-    @IBOutlet weak var five8HoursStack: UIStackView!
-    @IBOutlet weak var fiveStackHeight: NSLayoutConstraint!
-    
-    
     @IBOutlet weak var firstSwitch: UISwitch!
     @IBOutlet weak var secSwitch: UISwitch!
     @IBOutlet weak var thirdSwitch: UISwitch!
@@ -63,10 +55,6 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var day1Description2: UILabel!
     @IBOutlet weak var day1Description3: UILabel!
     @IBOutlet weak var day1Description4: UILabel!
-    @IBOutlet weak var day1Description5: UILabel!
-    @IBOutlet weak var day1Description6: UILabel!
-    @IBOutlet weak var day1Description7: UILabel!
-    @IBOutlet weak var day1Description8: UILabel!
     
     
     @IBOutlet weak var scrollView: UIScrollView!
@@ -111,9 +99,6 @@ class WeatherViewController: UIViewController {
         four8HoursStack.isHidden = true
         fourStackHeight.constant = 36
         
-        five8HoursStack.isHidden = true
-        fiveStackHeight.constant = 36
-        
         allStacksHeight.constant = 180
     }
     
@@ -123,7 +108,6 @@ class WeatherViewController: UIViewController {
         modifyStacks(secSwitch.isOn, sec8HoursStack, secStackHeight)
         modifyStacks(thirdSwitch.isOn, thr8HoursStack, thrStackHeight)
         modifyStacks(fourSwitch.isOn, four8HoursStack, fourStackHeight)
-        modifyStacks(fivSwitch.isOn, five8HoursStack, fiveStackHeight)
     
     }
     
@@ -209,16 +193,11 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.day2Label.text = weather.weekDays[1] + " " + weather.dates[1].suffix(5)
             self.day3Label.text = weather.weekDays[2] + " " + weather.dates[2].suffix(5)
             self.day4Label.text = weather.weekDays[3] + " " + weather.dates[3].suffix(5)
-            self.day5Label.text = weather.weekDays[4] + " " + weather.dates[4].suffix(5)
             
             self.day1Description1.text = weather.description[5]
             self.day1Description2.text = weather.description[6]
             self.day1Description3.text = weather.description[7]
             self.day1Description4.text = weather.description[0]
-            self.day1Description5.text = weather.description[1]
-            self.day1Description6.text = weather.description[2]
-            self.day1Description7.text = weather.description[3]
-            self.day1Description8.text = weather.description[4]
             
         
         }
