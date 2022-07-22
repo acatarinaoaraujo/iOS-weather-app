@@ -63,7 +63,7 @@ class WeatherViewController: UIViewController {
     
     
     @IBOutlet weak var scrollView: UIScrollView!
-    
+    @IBOutlet weak var allStacksHeight: NSLayoutConstraint!
     
     
 
@@ -103,6 +103,8 @@ class WeatherViewController: UIViewController {
         five8HoursStack.isHidden = true
         fiveStackHeight.constant = 36
         
+        allStacksHeight.constant = 500
+        
         
     }
     
@@ -118,6 +120,8 @@ class WeatherViewController: UIViewController {
     
     func modifyStacks(_ state: Bool, _ stack: UIStackView, _ height: NSLayoutConstraint) {
         
+        //var counterHeigh = 180
+        
         if state {
             stack.isHidden = false
             height.constant = 336
@@ -125,6 +129,8 @@ class WeatherViewController: UIViewController {
             stack.isHidden = true
             height.constant = 36
         }
+        
+        //allStacksHeight.constant = CGFloat(counterHeigh)
         
     }
 
