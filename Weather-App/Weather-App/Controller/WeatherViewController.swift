@@ -56,7 +56,22 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var day1Description3: UILabel!
     @IBOutlet weak var day1Description4: UILabel!
     
+    @IBOutlet weak var day2Description1: UILabel!
+    @IBOutlet weak var day2Description2: UILabel!
+    @IBOutlet weak var day2Description3: UILabel!
+    @IBOutlet weak var day2Description4: UILabel!
     
+    @IBOutlet weak var day3Description1: UILabel!
+    @IBOutlet weak var day3Description2: UILabel!
+    @IBOutlet weak var day3Description3: UILabel!
+    @IBOutlet weak var day3Description4: UILabel!
+    
+    @IBOutlet weak var day4Description1: UILabel!
+    @IBOutlet weak var day4Description2: UILabel!
+    @IBOutlet weak var day4Description3: UILabel!
+    @IBOutlet weak var day4Description4: UILabel!
+    
+
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var allStacksHeight: NSLayoutConstraint!
     
@@ -194,10 +209,25 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.day3Label.text = weather.weekDays[2] + " " + weather.dates[2].suffix(5)
             self.day4Label.text = weather.weekDays[3] + " " + weather.dates[3].suffix(5)
             
-            self.day1Description1.text = weather.description[5]
-            self.day1Description2.text = weather.description[6]
-            self.day1Description3.text = weather.description[7]
-            self.day1Description4.text = weather.description[0]
+            self.day1Description1.text = weather.description[4]
+            self.day1Description2.text = weather.description[5]
+            self.day1Description3.text = weather.description[6]
+            self.day1Description4.text = weather.description[7]
+            
+            self.day2Description1.text = weather.description[12]
+            self.day2Description2.text = weather.description[13]
+            self.day2Description3.text = weather.description[14]
+            self.day2Description4.text = weather.description[15]
+            
+            self.day3Description1.text = weather.description[20]
+            self.day3Description2.text = weather.description[21]
+            self.day3Description3.text = weather.description[22]
+            self.day3Description4.text = weather.description[23]
+            
+            self.day4Description1.text = weather.description[28]
+            self.day4Description2.text = weather.description[29]
+            self.day4Description3.text = weather.description[30]
+            self.day4Description4.text = weather.description[31]
             
         
         }

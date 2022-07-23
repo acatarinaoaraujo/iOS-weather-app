@@ -135,8 +135,8 @@
                                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="acx-8A-e5B">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="150"/>
                                                                                 <subviews>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCo-uN-3lZ">
-                                                                                        <rect key="frame" x="24.5" y="0.0" width="43.5" height="30"/>
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCo-uN-3lZ">
+                                                                                        <rect key="frame" x="26" y="0.0" width="40.5" height="30"/>
                                                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
@@ -148,8 +148,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJd-qx-Ep0">
-                                                                                        <rect key="frame" x="15" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="23.5" y="60" width="46" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -174,8 +174,8 @@
                                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TTP-eo-ucJ">
                                                                                 <rect key="frame" x="94" y="0.0" width="92.5" height="150"/>
                                                                                 <subviews>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWB-EE-jnI">
-                                                                                        <rect key="frame" x="24.5" y="0.0" width="43.5" height="30"/>
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWB-EE-jnI">
+                                                                                        <rect key="frame" x="25.5" y="0.0" width="41" height="30"/>
                                                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
@@ -187,8 +187,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="euR-YA-Xqa">
-                                                                                        <rect key="frame" x="14.5" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="23" y="60" width="46" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -213,8 +213,8 @@
                                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2PT-o9-zAl">
                                                                                 <rect key="frame" x="187.5" y="0.0" width="93" height="150"/>
                                                                                 <subviews>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="06:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfQ-QQ-mIh">
-                                                                                        <rect key="frame" x="24.5" y="0.0" width="44" height="30"/>
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfQ-QQ-mIh">
+                                                                                        <rect key="frame" x="26" y="0.0" width="41" height="30"/>
                                                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
@@ -226,8 +226,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pm1-Sh-ayx">
-                                                                                        <rect key="frame" x="15" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="23.5" y="60" width="46" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -252,8 +252,8 @@
                                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d3m-wV-iiy">
                                                                                 <rect key="frame" x="281.5" y="0.0" width="92.5" height="150"/>
                                                                                 <subviews>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA1-XH-zMe">
-                                                                                        <rect key="frame" x="24" y="0.0" width="44" height="30"/>
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA1-XH-zMe">
+                                                                                        <rect key="frame" x="26" y="0.0" width="40.5" height="30"/>
                                                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
@@ -265,8 +265,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tc8-GX-9ze">
-                                                                                        <rect key="frame" x="14.5" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="23" y="60" width="46" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -993,8 +993,20 @@
                         <outlet property="day1Description3" destination="pm1-Sh-ayx" id="4eR-0Z-BOJ"/>
                         <outlet property="day1Description4" destination="tc8-GX-9ze" id="IFa-jd-oOT"/>
                         <outlet property="day1Label" destination="7On-tN-UFk" id="bgS-fs-D2K"/>
+                        <outlet property="day2Description1" destination="nnN-CL-uHT" id="aJo-og-uBz"/>
+                        <outlet property="day2Description2" destination="3qC-n6-Df0" id="xUa-gu-6pB"/>
+                        <outlet property="day2Description3" destination="6Fg-0o-Vfu" id="LXh-MX-KLe"/>
+                        <outlet property="day2Description4" destination="rFu-SO-tJK" id="7Z7-cr-ecw"/>
                         <outlet property="day2Label" destination="Vs5-Bd-CMz" id="wVt-I2-FHM"/>
+                        <outlet property="day3Description1" destination="MIg-ex-toB" id="7jD-xI-Wam"/>
+                        <outlet property="day3Description2" destination="oRt-2V-r8J" id="eIO-3f-UXp"/>
+                        <outlet property="day3Description3" destination="Pwk-fZ-BdD" id="xFf-BC-axJ"/>
+                        <outlet property="day3Description4" destination="ndU-R2-d6C" id="t3I-Ja-Svh"/>
                         <outlet property="day3Label" destination="KWS-EO-tJV" id="Hgq-5s-PdC"/>
+                        <outlet property="day4Description1" destination="SRS-LG-hav" id="EYW-QZ-bll"/>
+                        <outlet property="day4Description2" destination="bOV-Vl-oM3" id="aJp-KT-kNe"/>
+                        <outlet property="day4Description3" destination="4Wx-Lr-PdV" id="y9g-bd-ohv"/>
+                        <outlet property="day4Description4" destination="n1r-bZ-PUe" id="6oX-Vb-ko7"/>
                         <outlet property="day4Label" destination="B0B-IO-8zC" id="riE-2p-mqY"/>
                         <outlet property="first5DayStack" destination="4Fv-9Z-FRk" id="oAw-0x-IEi"/>
                         <outlet property="first8HoursStack" destination="pmL-Ze-jgo" id="odh-H2-2K8"/>
