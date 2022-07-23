@@ -66,9 +66,9 @@ struct WeatherManager {
             let description = getWeatherDescription(0, 40, decodedData)
             let temp = getTemperature(0, 40, decodedData)
             let feels = getFeelsLike(0, 40, decodedData)
-            print(feels)
+            let idImage = getImageCode(0, 40, decodedData)
             
-            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates, temp: temp, description: description, feels: feels)
+            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates, idImage: idImage, temp: temp, description: description, feels: feels)
             return weather
             
         } catch {
@@ -147,6 +147,19 @@ struct WeatherManager {
         return feels
         
     }
+    
+    func getImageCode(_ start: Int, _ end: Int, _ data: WeatherData) -> [String] {
+        var imageCodes: [String] = []
+        
+        for i in start...end - 1 {
+            let hourImageCode = data.list[i].weather[0].id
+            imageCodes.append(String(hourImageCode))
+        }
+        print(imageCodes)
+        return imageCodes
+        
+    }
+    
     
    
     

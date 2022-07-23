@@ -20,6 +20,7 @@ struct WeatherModel {
     let weekDays: [String]
     let dates: [String]
     
+    let idImage: [String]
     let temp: [String]
     let description: [String]
     let feels: [String]
