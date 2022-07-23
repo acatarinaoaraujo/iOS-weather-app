@@ -948,6 +948,7 @@
                         <outlet property="four8HoursStack" destination="OeY-Pc-Zec" id="G1M-Ut-WDp"/>
                         <outlet property="fourStackHeight" destination="rUv-o7-jyb" id="Bvb-L4-piN"/>
                         <outlet property="fourSwitch" destination="QPH-0f-j7K" id="X9h-lv-Z9Y"/>
+                        <outlet property="idDay1Hr1Image" destination="cEk-vm-6cS" id="BJf-OL-IZl"/>
                         <outlet property="populationLabel" destination="zor-gZ-Aui" id="RI0-xt-Dxf"/>
                         <outlet property="scrollView" destination="Bc7-2Z-tzg" id="d4H-gU-rnf"/>
                         <outlet property="searchTextField" destination="xeK-uN-ZW4" id="EN3-oB-sfG"/>

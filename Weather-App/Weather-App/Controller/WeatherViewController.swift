@@ -62,6 +62,9 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var day4Description3: UILabel!
     @IBOutlet weak var day4Description4: UILabel!
     
+    
+    @IBOutlet weak var idDay1Hr1Image: UIImageView!
+    
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var allStacksHeight: NSLayoutConstraint!
