@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
@@ -43,6 +44,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="xeK-uN-ZW4">
                                                 <rect key="frame" x="50" y="0.0" width="274" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemFillColor"/>
+                                                <color key="tintColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="go"/>
                                             </textField>
@@ -61,30 +63,36 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5hF-Cq-Mfk">
-                                        <rect key="frame" x="124" y="50" width="250" height="79.5"/>
+                                        <rect key="frame" x="124" y="50" width="250" height="82.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name, Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyA-Vl-rUe">
-                                                <rect key="frame" x="58.5" y="0.0" width="191.5" height="26.5"/>
+                                                <rect key="frame" x="58.5" y="0.0" width="191.5" height="27.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
+                                                <color key="shadowColor" name="weatherColour"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Population: 000,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zor-gZ-Aui">
-                                                <rect key="frame" x="86.5" y="31.5" width="163.5" height="21.5"/>
+                                                <rect key="frame" x="86.5" y="32.5" width="163.5" height="22.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
+                                                <color key="shadowColor" name="weatherColour"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coordinates: [00.000,000.000]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="En9-3V-GbL">
-                                                <rect key="frame" x="0.0" y="58" width="250" height="21.5"/>
+                                                <rect key="frame" x="0.0" y="60" width="250" height="22.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
+                                                <color key="shadowColor" name="weatherColour"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bc7-2Z-tzg">
-                                        <rect key="frame" x="0.0" y="139.5" width="374" height="678.5"/>
+                                        <rect key="frame" x="0.0" y="142.5" width="374" height="675.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="3Rt-Jx-HUd">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="744"/>
@@ -97,7 +105,7 @@
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAY1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7On-tN-UFk">
                                                                         <rect key="frame" x="0.0" y="7.5" width="147" height="21.5"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -117,8 +125,10 @@
                                                                                 </connections>
                                                                             </switch>
                                                                         </subviews>
+                                                                        <color key="backgroundColor" red="0.62745098040000002" green="0.25098039220000001" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </stackView>
                                                                 </subviews>
+                                                                <color key="backgroundColor" red="0.62745098040000002" green="0.25098039220000001" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="pmL-Ze-jgo">
                                                                 <rect key="frame" x="0.0" y="36" width="374" height="150"/>
@@ -160,7 +170,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952927714641" green="0.3203771367545834" blue="0.28635695124195409" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="clX-wx-sGQ"/>
                                                                                 </constraints>
@@ -199,7 +209,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="8Bs-t8-eN6"/>
                                                                                 </constraints>
@@ -238,7 +248,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="Omo-6s-Xo7"/>
                                                                                 </constraints>
@@ -277,7 +287,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="dHw-p8-Ypl"/>
                                                                                 </constraints>
@@ -288,13 +298,13 @@
                                                                         </constraints>
                                                                     </stackView>
                                                                 </subviews>
-                                                                <color key="backgroundColor" red="0.37947171930000001" green="0.3891505301" blue="0.7019913793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="backgroundColor" name="weatherColour"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="150" id="lSz-yi-PxN"/>
                                                                 </constraints>
                                                             </stackView>
                                                         </subviews>
-                                                        <color key="backgroundColor" red="0.16637538869999999" green="0.41806013180000001" blue="0.13119468619999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="186" id="Euf-CZ-4Gm"/>
                                                         </constraints>
@@ -307,7 +317,7 @@
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAY2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vs5-Bd-CMz">
                                                                         <rect key="frame" x="0.0" y="7.5" width="147" height="21.5"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -370,7 +380,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="pQI-Ai-1qb"/>
                                                                                 </constraints>
@@ -409,7 +419,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="z1Z-58-BPF"/>
                                                                                 </constraints>
@@ -448,7 +458,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="Uds-Om-pOe"/>
                                                                                 </constraints>
@@ -487,15 +497,13 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="yOE-Vi-RhK"/>
                                                                                 </constraints>
                                                                             </stackView>
                                                                         </subviews>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="height" constant="149" id="byK-Xc-3kh"/>
-                                                                        </constraints>
+                                                                        <color key="backgroundColor" name="weatherColour"/>
                                                                     </stackView>
                                                                 </subviews>
                                                                 <color key="backgroundColor" red="0.37947171930000001" green="0.3891505301" blue="0.7019913793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -504,6 +512,7 @@
                                                                 </constraints>
                                                             </stackView>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.58285194640000004" green="0.27608171110000002" blue="0.16074666379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="186" id="iJu-4U-Vbj"/>
                                                         </constraints>
@@ -516,7 +525,7 @@
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAY3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWS-EO-tJV">
                                                                         <rect key="frame" x="0.0" y="7.5" width="147" height="21.5"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -579,7 +588,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="qPm-cL-yie"/>
                                                                                 </constraints>
@@ -618,7 +627,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="ash-2Y-mvd"/>
                                                                                 </constraints>
@@ -657,7 +666,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="o9c-My-yRk"/>
                                                                                 </constraints>
@@ -696,7 +705,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="qtX-5S-nyb"/>
                                                                                 </constraints>
@@ -707,12 +716,13 @@
                                                                         </constraints>
                                                                     </stackView>
                                                                 </subviews>
-                                                                <color key="backgroundColor" red="0.37947171930000001" green="0.3891505301" blue="0.7019913793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="backgroundColor" name="weatherColour"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="150" id="K2h-Fi-AQO"/>
                                                                 </constraints>
                                                             </stackView>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.58285194640000004" green="0.27608171110000002" blue="0.16074666379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="186" id="5aa-PP-46w"/>
                                                         </constraints>
@@ -725,7 +735,7 @@
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAY4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0B-IO-8zC">
                                                                         <rect key="frame" x="0.0" y="7.5" width="147" height="21.5"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -788,7 +798,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="Mgv-gj-sof"/>
                                                                                 </constraints>
@@ -827,7 +837,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="zIb-JS-939"/>
                                                                                 </constraints>
@@ -866,7 +876,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="Mvo-5Q-gLg"/>
                                                                                 </constraints>
@@ -905,7 +915,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.53754994450000004" green="0.55300643739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="backgroundColor" red="0.65146952930000002" green="0.32037713680000002" blue="0.28635695119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="93.5" id="0ak-Y2-n2x"/>
                                                                                 </constraints>
@@ -916,18 +926,19 @@
                                                                         </constraints>
                                                                     </stackView>
                                                                 </subviews>
-                                                                <color key="backgroundColor" red="0.37947171930000001" green="0.3891505301" blue="0.7019913793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="backgroundColor" name="weatherColour"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="150" id="rUv-o7-jyb"/>
                                                                 </constraints>
                                                             </stackView>
                                                         </subviews>
+                                                        <color key="backgroundColor" red="0.58285194640000004" green="0.27608171110000002" blue="0.16074666379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="186" id="kur-B9-LOB"/>
                                                         </constraints>
                                                     </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                                <color key="backgroundColor" red="0.62745098039215685" green="0.25098039215686274" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="744" id="Zza-xv-zk2"/>
                                                 </constraints>
@@ -1065,21 +1076,24 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="662" height="662"/>
+        <image name="background" width="3024" height="4032"/>
         <image name="location.circle.fill" catalog="system" width="128" height="121"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="sun.max.fill" catalog="system" width="128" height="124"/>
+        <namedColor name="weatherColour">
+            <color red="0.039215686270000001" green="0.039215686270000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemFillColor">
             <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
