@@ -148,8 +148,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJd-qx-Ep0">
-                                                                                        <rect key="frame" x="23.5" y="60" width="46" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -187,8 +187,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="euR-YA-Xqa">
-                                                                                        <rect key="frame" x="23" y="60" width="46" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -226,8 +226,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pm1-Sh-ayx">
-                                                                                        <rect key="frame" x="23.5" y="60" width="46" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -265,8 +265,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tc8-GX-9ze">
-                                                                                        <rect key="frame" x="23" y="60" width="46" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -403,8 +403,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qC-n6-Df0">
-                                                                                        <rect key="frame" x="23" y="60" width="46" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -442,8 +442,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Fg-0o-Vfu">
-                                                                                        <rect key="frame" x="15" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -481,8 +481,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFu-SO-tJK">
-                                                                                        <rect key="frame" x="14.5" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -579,8 +579,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIg-ex-toB">
-                                                                                        <rect key="frame" x="15" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -618,8 +618,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRt-2V-r8J">
-                                                                                        <rect key="frame" x="14.5" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -657,8 +657,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwk-fZ-BdD">
-                                                                                        <rect key="frame" x="15" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -696,8 +696,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndU-R2-d6C">
-                                                                                        <rect key="frame" x="14.5" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -794,8 +794,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SRS-LG-hav">
-                                                                                        <rect key="frame" x="15" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -833,8 +833,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOV-Vl-oM3">
-                                                                                        <rect key="frame" x="14.5" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -872,8 +872,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wx-Lr-PdV">
-                                                                                        <rect key="frame" x="15" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -911,8 +911,8 @@
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1r-bZ-PUe">
-                                                                                        <rect key="frame" x="14.5" y="60" width="63" height="30"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                        <rect key="frame" x="25" y="60" width="42.5" height="30"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
