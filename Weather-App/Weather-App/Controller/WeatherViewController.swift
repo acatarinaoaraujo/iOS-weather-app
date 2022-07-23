@@ -301,10 +301,10 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.tempDay4Hr3.text = weather.temp[30] + "°F"
             self.tempDay4Hr4.text = weather.temp[31] + "°F"
             
-            self.feelsDay1Hr1.text = "feels like:" + weather.feels[4] + "°"
-            self.feelsDay1Hr2.text = "feels like:" + weather.feels[5] + "°"
-            self.feelsDay1Hr3.text = "feels like:" + weather.feels[6] + "°"
-            self.feelsDay1Hr4.text = "feels like:" + weather.feels[7] + "°"
+            self.feelsDay1Hr1.text = "feels like: " + weather.feels[4] + "°"
+            self.feelsDay1Hr2.text = "feels like: " + weather.feels[5] + "°"
+            self.feelsDay1Hr3.text = "feels like: " + weather.feels[6] + "°"
+            self.feelsDay1Hr4.text = "feels like: " + weather.feels[7] + "°"
             
             self.feelsDay2Hr1.text = "feels like: " + weather.feels[12] + "°"
             self.feelsDay2Hr2.text = "feels like: " + weather.feels[13] + "°"
@@ -320,10 +320,6 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.feelsDay4Hr2.text = "feels like: " + weather.feels[29] + "°"
             self.feelsDay4Hr3.text = "feels like: " + weather.feels[30] + "°"
             self.feelsDay4Hr4.text = "feels like: " + weather.feels[31] + "°"
-            
-
-            
-
             
         
         }
