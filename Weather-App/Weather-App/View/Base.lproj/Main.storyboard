@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
@@ -63,36 +63,36 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5hF-Cq-Mfk">
-                                        <rect key="frame" x="124" y="50" width="250" height="82.5"/>
+                                        <rect key="frame" x="124" y="50" width="250" height="80.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name, Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyA-Vl-rUe">
-                                                <rect key="frame" x="58.5" y="0.0" width="191.5" height="27.5"/>
+                                                <rect key="frame" x="58.5" y="0.0" width="191.5" height="26.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
-                                                <color key="shadowColor" name="weatherColour"/>
-                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                                <size key="shadowOffset" width="0.0" height="0.5"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Population: 000,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zor-gZ-Aui">
-                                                <rect key="frame" x="86.5" y="32.5" width="163.5" height="22.5"/>
+                                                <rect key="frame" x="86.5" y="31.5" width="163.5" height="22"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" name="weatherColour"/>
-                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                                <size key="shadowOffset" width="0.0" height="0.5"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coordinates: [00.000,000.000]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="En9-3V-GbL">
-                                                <rect key="frame" x="0.0" y="60" width="250" height="22.5"/>
+                                                <rect key="frame" x="0.0" y="58.5" width="250" height="22"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" name="weatherColour"/>
-                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                                <size key="shadowOffset" width="0.0" height="0.5"/>
                                             </label>
                                         </subviews>
+                                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                                     </stackView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bc7-2Z-tzg">
-                                        <rect key="frame" x="0.0" y="142.5" width="374" height="675.5"/>
+                                        <rect key="frame" x="0.0" y="140.5" width="374" height="677.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="3Rt-Jx-HUd">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="744"/>
@@ -120,6 +120,8 @@
                                                                             </label>
                                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="firstSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="J6e-dw-b9m">
                                                                                 <rect key="frame" x="98" y="0.0" width="51" height="31"/>
+                                                                                <color key="onTintColor" red="0.83400972925051298" green="0.57756475460279411" blue="0.47451968107307529" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="thumbTintColor" red="0.21176470588235294" green="0.098039215686274508" blue="0.035294117647058823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <connections>
                                                                                     <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="jJs-YO-J3N"/>
                                                                                 </connections>
@@ -332,6 +334,8 @@
                                                                             </label>
                                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="secSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="PAV-VZ-cdg">
                                                                                 <rect key="frame" x="98" y="0.0" width="51" height="31"/>
+                                                                                <color key="onTintColor" red="0.83400972929999995" green="0.57756475460000001" blue="0.47451968109999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="thumbTintColor" red="0.21176470589999999" green="0.098039215690000001" blue="0.035294117649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <connections>
                                                                                     <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ssg-LA-p5O"/>
                                                                                 </connections>
@@ -540,6 +544,8 @@
                                                                             </label>
                                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="thirSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="km7-aw-CCp">
                                                                                 <rect key="frame" x="98" y="0.0" width="51" height="31"/>
+                                                                                <color key="onTintColor" red="0.83400972929999995" green="0.57756475460000001" blue="0.47451968109999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="thumbTintColor" red="0.21176470589999999" green="0.098039215690000001" blue="0.035294117649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <connections>
                                                                                     <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="mcG-1t-Nht"/>
                                                                                 </connections>
@@ -750,6 +756,8 @@
                                                                             </label>
                                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="forSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="QPH-0f-j7K">
                                                                                 <rect key="frame" x="98" y="0.0" width="51" height="31"/>
+                                                                                <color key="onTintColor" red="0.83400972929999995" green="0.57756475460000001" blue="0.47451968109999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                <color key="thumbTintColor" red="0.21176470589999999" green="0.098039215690000001" blue="0.035294117649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <connections>
                                                                                     <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="gaq-Ja-nSf"/>
                                                                                 </connections>
@@ -1097,6 +1105,9 @@
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemFillColor">
+            <color red="0.46274509803921571" green="0.46274509803921571" blue="0.50196078431372548" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
