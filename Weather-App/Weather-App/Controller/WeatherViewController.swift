@@ -171,12 +171,54 @@ class WeatherViewController: UIViewController {
     
     @IBAction func switchedMoved(_ sender: UISwitch) {
         
-        print(sender.self)
-
-        modifyStacks(firstSwitch.isOn, first8HoursStack, firstStackHeight)
-        modifyStacks(secSwitch.isOn, sec8HoursStack, secStackHeight)
-        modifyStacks(thirdSwitch.isOn, thr8HoursStack, thrStackHeight)
-        modifyStacks(fourSwitch.isOn, four8HoursStack, fourStackHeight)
+        //print(sender.self)
+        firstSwitch.isOn = false
+        secSwitch.isOn = false
+        thirdSwitch.isOn = false
+        fourSwitch.isOn = false
+        sender.isOn = true
+        
+        if firstSwitch.isOn {
+            modifyStacks(firstSwitch.isOn, first8HoursStack, firstStackHeight)
+            sec8HoursStack.isHidden = true
+            thr8HoursStack.isHidden = true
+            four8HoursStack.isHidden = true
+            
+            secStackHeight.constant = 36
+            thrStackHeight.constant = 36
+            fourStackHeight.constant = 36
+            
+        } else if secSwitch.isOn {
+            modifyStacks(secSwitch.isOn, sec8HoursStack, secStackHeight)
+            first8HoursStack.isHidden = true
+            thr8HoursStack.isHidden = true
+            four8HoursStack.isHidden = true
+            
+            firstStackHeight.constant = 36
+            thrStackHeight.constant = 36
+            fourStackHeight.constant = 36
+            
+        } else if thirdSwitch.isOn {
+            modifyStacks(thirdSwitch.isOn, thr8HoursStack, thrStackHeight)
+            first8HoursStack.isHidden = true
+            sec8HoursStack.isHidden = true
+            four8HoursStack.isHidden = true
+            
+            firstStackHeight.constant = 36
+            secStackHeight.constant = 36
+            fourStackHeight.constant = 36
+            
+        } else if fourSwitch.isOn {
+            modifyStacks(fourSwitch.isOn, four8HoursStack, fourStackHeight)
+            first8HoursStack.isHidden = true
+            thr8HoursStack.isHidden = true
+            sec8HoursStack.isHidden = true
+            
+            firstStackHeight.constant = 36
+            thrStackHeight.constant = 36
+            secStackHeight.constant = 36
+            
+        }
     
     }
     
@@ -187,12 +229,12 @@ class WeatherViewController: UIViewController {
         
         if state {
             stack.isHidden = false
-            height.constant = 336
-            counterHeigh += 330
+            height.constant = 186
+            counterHeigh += 150
         } else {
             stack.isHidden = true
             height.constant = 36
-            counterHeigh -= 330
+            counterHeigh -= 150
         }
         print(counterHeigh)
         
