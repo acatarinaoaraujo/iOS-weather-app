@@ -52,14 +52,10 @@ struct WeatherManager {
         let decoder = JSONDecoder()
         do {
             let decodedData = try decoder.decode(WeatherData.self, from: weatherData)
-            /*let id = decodedData.weather[0].id
-            let temp = decodedData.main.temp
-            let name = decodedData.name*/
             
             let name = decodedData.city.name
             let country = decodedData.city.country
             let population = decodedData.city.population
-            
             let lat  = decodedData.city.coord.lat
             let lon  = decodedData.city.coord.lon
             
@@ -68,9 +64,11 @@ struct WeatherManager {
             let dayOfWeek = tupleDates.1
         
             let description = getWeatherDescription(0, 40, decodedData)
-            print(description)
+            let temp = getTemperature(0, 40, decodedData)
+            print(temp)
             
-            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates, description: description)
+            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates, description: description, temp:
+             temp)
             return weather
             
         } catch {
@@ -126,15 +124,19 @@ struct WeatherManager {
         
     }
     
-    /*func getDayInfo (rangeLow low: Int, rangeHigh high: Int,_ data: WeatherData) -> [String] {
-        var dayOfWeek: [String]
+    func getTemperature(_ start: Int, _ end: Int, _ data: WeatherData) -> [String] {
+        var temperatures: [String] = []
         
-        dayOfWeek = ["Ana", "Catarina"]
+        for i in start...end - 1 {
+            let hourTemp = data.list[i].main.temp
+            temperatures.append(String(hourTemp))
+        }
         
-        //dayOfWeek.append(data.list[0].dt_txt)
+        return temperatures
         
-        return dayOfWeek
-    }*/
+    }
+    
+   
     
 
 }
