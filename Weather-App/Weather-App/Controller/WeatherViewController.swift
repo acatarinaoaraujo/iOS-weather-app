@@ -336,10 +336,10 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.idDay3Hr3Image.image = UIImage(systemName: weather.idImage[22])
             self.idDay3Hr4Image.image = UIImage(systemName: weather.idImage[23])
             
-            self.idDay3Hr1Image.image = UIImage(systemName: weather.idImage[28])
-            self.idDay3Hr2Image.image = UIImage(systemName: weather.idImage[29])
-            self.idDay3Hr3Image.image = UIImage(systemName: weather.idImage[30])
-            self.idDay3Hr4Image.image = UIImage(systemName: weather.idImage[31])
+            self.idDay4Hr1Image.image = UIImage(systemName: weather.idImage[28])
+            self.idDay4Hr2Image.image = UIImage(systemName: weather.idImage[29])
+            self.idDay4Hr3Image.image = UIImage(systemName: weather.idImage[30])
+            self.idDay4Hr4Image.image = UIImage(systemName: weather.idImage[31])
             
         
         }

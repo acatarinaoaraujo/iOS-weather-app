@@ -157,19 +157,21 @@ struct WeatherManager {
             var conditionName: String {
                 switch hourImageCode {
                 case 200...232:
-                    return "cloud.bolt"
+                    return "cloud.bolt.rain.fill"
                 case 300...321:
-                    return "cloud.drizzle"
+                    return "cloud.drizzle.fill"
                 case 500...531:
-                    return "cloud.rain"
+                    return "cloud.heavyrain.fill"
                 case 600...622:
-                    return "cloud.snow"
+                    return "snowflake"
                 case 701...781:
-                    return "cloud.fog"
+                    return "smoke.fill"
                 case 800:
                     return "sun.max"
-                case 801...804:
-                    return "cloud.bolt"
+                case 801...802:
+                    return "cloud.sun.fill"
+                case 803...804:
+                    return "cloud.fog.fill"
                 default:
                     return "cloud"
                 }
