@@ -64,6 +64,64 @@ class WeatherViewController: UIViewController {
     
     
     @IBOutlet weak var idDay1Hr1Image: UIImageView!
+    @IBOutlet weak var idDay1Hr2Image: UIImageView!
+    @IBOutlet weak var idDay1Hr3Image: UIImageView!
+    @IBOutlet weak var idDay1Hr4Image: UIImageView!
+    
+    @IBOutlet weak var idDay2Hr1Image: UIImageView!
+    @IBOutlet weak var idDay2Hr2Image: UIImageView!
+    @IBOutlet weak var idDay2Hr3Image: UIImageView!
+    @IBOutlet weak var idDay2Hr4Image: UIImageView!
+    
+    @IBOutlet weak var idDay3Hr1Image: UIImageView!
+    @IBOutlet weak var idDay3Hr2Image: UIImageView!
+    @IBOutlet weak var idDay3Hr3Image: UIImageView!
+    @IBOutlet weak var idDay3Hr4Image: UIImageView!
+    
+    @IBOutlet weak var idDay4Hr1Image: UIImageView!
+    @IBOutlet weak var idDay4Hr2Image: UIImageView!
+    @IBOutlet weak var idDay4Hr3Image: UIImageView!
+    @IBOutlet weak var idDay4Hr4Image: UIImageView!
+    
+    @IBOutlet weak var tempDay1Hr1: UILabel!
+    @IBOutlet weak var tempDay1Hr2: UILabel!
+    @IBOutlet weak var tempDay1Hr3: UILabel!
+    @IBOutlet weak var tempDay1Hr4: UILabel!
+    
+    @IBOutlet weak var tempDay2Hr1: UILabel!
+    @IBOutlet weak var tempDay2Hr2: UILabel!
+    @IBOutlet weak var tempDay2Hr3: UILabel!
+    @IBOutlet weak var tempDay2Hr4: UILabel!
+    
+    @IBOutlet weak var tempDay3Hr1: UILabel!
+    @IBOutlet weak var tempDay3Hr2: UILabel!
+    @IBOutlet weak var tempDay3Hr3: UILabel!
+    @IBOutlet weak var tempDay3Hr4: UILabel!
+    
+    @IBOutlet weak var tempDay4Hr1: UILabel!
+    @IBOutlet weak var tempDay4Hr2: UILabel!
+    @IBOutlet weak var tempDay4Hr3: UILabel!
+    @IBOutlet weak var tempDay4Hr4: UILabel!
+    
+    @IBOutlet weak var feelsDay1Hr1: UILabel!
+    @IBOutlet weak var feelsDay1Hr2: UILabel!
+    @IBOutlet weak var feelsDay1Hr3: UILabel!
+    @IBOutlet weak var feelsDay1Hr4: UILabel!
+    
+    @IBOutlet weak var feelsDay2Hr1: UILabel!
+    @IBOutlet weak var feelsDay2Hr2: UILabel!
+    @IBOutlet weak var feelsDay2Hr3: UILabel!
+    @IBOutlet weak var feelsDay2Hr4: UILabel!
+    
+    @IBOutlet weak var feelsDay3Hr1: UILabel!
+    @IBOutlet weak var feelsDay3Hr2: UILabel!
+    @IBOutlet weak var feelsDay3Hr3: UILabel!
+    @IBOutlet weak var feelsDay3Hr4: UILabel!
+    
+    @IBOutlet weak var feelsDay4Hr1: UILabel!
+    @IBOutlet weak var feelsDay4Hr2: UILabel!
+    @IBOutlet weak var feelsDay4Hr3: UILabel!
+    @IBOutlet weak var feelsDay4Hr4: UILabel!
     
 
     @IBOutlet weak var scrollView: UIScrollView!

@@ -940,6 +940,22 @@
                         <outlet property="day4Description3" destination="4Wx-Lr-PdV" id="y9g-bd-ohv"/>
                         <outlet property="day4Description4" destination="n1r-bZ-PUe" id="6oX-Vb-ko7"/>
                         <outlet property="day4Label" destination="B0B-IO-8zC" id="riE-2p-mqY"/>
+                        <outlet property="feelsDay1Hr1" destination="3lI-BN-mo8" id="mrZ-PH-e7g"/>
+                        <outlet property="feelsDay1Hr2" destination="AeW-tb-884" id="1NK-6w-9Pt"/>
+                        <outlet property="feelsDay1Hr3" destination="OUK-4W-JLf" id="yZX-zi-Axf"/>
+                        <outlet property="feelsDay1Hr4" destination="0At-NR-EuU" id="lCg-dX-Nby"/>
+                        <outlet property="feelsDay2Hr1" destination="MtB-dY-5bt" id="XVh-0v-Wa6"/>
+                        <outlet property="feelsDay2Hr2" destination="O1Q-MJ-qis" id="tkW-L2-gge"/>
+                        <outlet property="feelsDay2Hr3" destination="mUq-e1-G48" id="1bl-xi-5AN"/>
+                        <outlet property="feelsDay2Hr4" destination="Lxf-qC-Hbs" id="Wsl-ro-sqg"/>
+                        <outlet property="feelsDay3Hr1" destination="ebO-Fr-ECz" id="g45-FX-wHe"/>
+                        <outlet property="feelsDay3Hr2" destination="9Sy-u6-0Nk" id="D4K-c4-0xF"/>
+                        <outlet property="feelsDay3Hr3" destination="adt-pF-yBc" id="jSv-Eh-27h"/>
+                        <outlet property="feelsDay3Hr4" destination="8h5-gC-aZs" id="GMh-AW-3t8"/>
+                        <outlet property="feelsDay4Hr1" destination="9WN-gZ-FwV" id="2D4-Bb-VhC"/>
+                        <outlet property="feelsDay4Hr2" destination="vJ8-Ck-lbB" id="Vbf-zF-214"/>
+                        <outlet property="feelsDay4Hr3" destination="mKP-yS-WKd" id="1RA-16-8Xg"/>
+                        <outlet property="feelsDay4Hr4" destination="ggJ-cZ-Ggq" id="o21-aY-Ejb"/>
                         <outlet property="first5DayStack" destination="4Fv-9Z-FRk" id="oAw-0x-IEi"/>
                         <outlet property="first8HoursStack" destination="pmL-Ze-jgo" id="odh-H2-2K8"/>
                         <outlet property="firstStackHeight" destination="Euf-CZ-4Gm" id="GGi-z7-9zJ"/>
@@ -949,6 +965,21 @@
                         <outlet property="fourStackHeight" destination="rUv-o7-jyb" id="Bvb-L4-piN"/>
                         <outlet property="fourSwitch" destination="QPH-0f-j7K" id="X9h-lv-Z9Y"/>
                         <outlet property="idDay1Hr1Image" destination="cEk-vm-6cS" id="BJf-OL-IZl"/>
+                        <outlet property="idDay1Hr2Image" destination="Nrk-wg-eDU" id="pOM-dR-orv"/>
+                        <outlet property="idDay1Hr3Image" destination="rVl-mq-p5h" id="0ho-WA-Pkq"/>
+                        <outlet property="idDay1Hr4Image" destination="XUx-DY-o3R" id="gSn-O2-6lI"/>
+                        <outlet property="idDay2Hr1Image" destination="Gvy-5h-ICE" id="OKx-U4-31f"/>
+                        <outlet property="idDay2Hr2Image" destination="JUg-Uc-xvG" id="984-Rh-AIr"/>
+                        <outlet property="idDay2Hr3Image" destination="tRB-gs-tLO" id="92V-pq-Aa3"/>
+                        <outlet property="idDay2Hr4Image" destination="jFC-ij-Svi" id="qx6-aF-kcd"/>
+                        <outlet property="idDay3Hr1Image" destination="Z2d-Vv-XWS" id="Bvu-yi-LVH"/>
+                        <outlet property="idDay3Hr2Image" destination="WoO-Mp-FuR" id="YHe-eE-gla"/>
+                        <outlet property="idDay3Hr3Image" destination="BGj-0D-ZI6" id="uv0-4f-USU"/>
+                        <outlet property="idDay3Hr4Image" destination="Sn0-3H-cCa" id="jV5-Ag-8Hm"/>
+                        <outlet property="idDay4Hr1Image" destination="hnt-Wb-mcz" id="6WQ-KT-oZC"/>
+                        <outlet property="idDay4Hr2Image" destination="aF5-4t-d5t" id="gy6-E3-h0L"/>
+                        <outlet property="idDay4Hr3Image" destination="1v9-Xl-Ka6" id="nPu-go-74T"/>
+                        <outlet property="idDay4Hr4Image" destination="Gnc-1q-1QL" id="a05-mu-x4Z"/>
                         <outlet property="populationLabel" destination="zor-gZ-Aui" id="RI0-xt-Dxf"/>
                         <outlet property="scrollView" destination="Bc7-2Z-tzg" id="d4H-gU-rnf"/>
                         <outlet property="searchTextField" destination="xeK-uN-ZW4" id="EN3-oB-sfG"/>
@@ -956,6 +987,22 @@
                         <outlet property="sec8HoursStack" destination="f2o-m6-pF9" id="2ci-q1-09R"/>
                         <outlet property="secStackHeight" destination="iJu-4U-Vbj" id="cnu-Yn-O4a"/>
                         <outlet property="secSwitch" destination="PAV-VZ-cdg" id="aYK-ca-aJd"/>
+                        <outlet property="tempDay1Hr1" destination="CiD-xZ-g0T" id="BcV-Db-s1G"/>
+                        <outlet property="tempDay1Hr2" destination="U1L-D3-xbT" id="dpD-Vo-Hvj"/>
+                        <outlet property="tempDay1Hr3" destination="n4u-fi-alW" id="phj-Lf-5z1"/>
+                        <outlet property="tempDay1Hr4" destination="m7P-ET-52C" id="TRi-d1-O93"/>
+                        <outlet property="tempDay2Hr1" destination="P1p-hi-ilW" id="w1F-PS-jsG"/>
+                        <outlet property="tempDay2Hr2" destination="z6l-xI-BSc" id="qgr-ko-4XK"/>
+                        <outlet property="tempDay2Hr3" destination="b0D-J2-NoO" id="efC-4Z-0QC"/>
+                        <outlet property="tempDay2Hr4" destination="Gnj-Rf-4Ap" id="S97-1B-MNR"/>
+                        <outlet property="tempDay3Hr1" destination="ruX-uD-fou" id="VGp-eV-P9q"/>
+                        <outlet property="tempDay3Hr2" destination="T2o-S2-6Wl" id="Bjr-Vg-dBD"/>
+                        <outlet property="tempDay3Hr3" destination="SLi-Yg-tTd" id="6vu-YO-CmH"/>
+                        <outlet property="tempDay3Hr4" destination="so8-fP-x3A" id="2Ln-tY-mhx"/>
+                        <outlet property="tempDay4Hr1" destination="fFs-Iu-eUu" id="Yjb-da-toy"/>
+                        <outlet property="tempDay4Hr2" destination="dPE-eV-Can" id="ZsR-nE-sWV"/>
+                        <outlet property="tempDay4Hr3" destination="rbK-WL-Cra" id="FIv-fX-WeL"/>
+                        <outlet property="tempDay4Hr4" destination="ibB-2a-3mn" id="sNF-cV-CAF"/>
                         <outlet property="thirdSwitch" destination="km7-aw-CCp" id="oTf-ra-Dzp"/>
                         <outlet property="thr5DayStack" destination="IVW-bM-Oxc" id="tBX-DE-mgO"/>
                         <outlet property="thr8HoursStack" destination="cMK-QB-Btw" id="oEV-wl-o38"/>
