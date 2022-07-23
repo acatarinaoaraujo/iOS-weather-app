@@ -281,6 +281,28 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.day4Description3.text = weather.description[30]
             self.day4Description4.text = weather.description[31]
             
+            self.tempDay1Hr1.text = weather.temp[4] + "°F"
+            self.tempDay1Hr2.text = weather.temp[5] + "°F"
+            self.tempDay1Hr3.text = weather.temp[6] + "°F"
+            self.tempDay1Hr4.text = weather.temp[7] + "°F"
+            
+            self.tempDay2Hr1.text = weather.temp[12] + "°F"
+            self.tempDay2Hr2.text = weather.temp[13] + "°F"
+            self.tempDay2Hr3.text = weather.temp[14] + "°F"
+            self.tempDay2Hr4.text = weather.temp[15] + "°F"
+            
+            self.tempDay3Hr1.text = weather.temp[20] + "°F"
+            self.tempDay3Hr2.text = weather.temp[21] + "°F"
+            self.tempDay3Hr3.text = weather.temp[22] + "°F"
+            self.tempDay3Hr4.text = weather.temp[23] + "°F"
+            
+            self.tempDay4Hr1.text = weather.temp[28] + "°F"
+            self.tempDay4Hr2.text = weather.temp[29] + "°F"
+            self.tempDay4Hr3.text = weather.temp[30] + "°F"
+            self.tempDay4Hr4.text = weather.temp[31] + "°F"
+            
+
+            
         
         }
     }
