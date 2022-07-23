@@ -125,10 +125,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cEk-vm-6cS">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJd-qx-Ep0">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -164,10 +164,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nrk-wg-eDU">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="euR-YA-Xqa">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -203,10 +203,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rVl-mq-p5h">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pm1-Sh-ayx">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -242,10 +242,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XUx-DY-o3R">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tc8-GX-9ze">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -324,10 +324,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gvy-5h-ICE">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnN-CL-uHT">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -363,10 +363,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JUg-Uc-xvG">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qC-n6-Df0">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -402,10 +402,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tRB-gs-tLO">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Fg-0o-Vfu">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -441,10 +441,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jFC-ij-Svi">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFu-SO-tJK">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -522,10 +522,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z2d-Vv-XWS">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIg-ex-toB">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -561,10 +561,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WoO-Mp-FuR">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRt-2V-r8J">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -600,10 +600,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BGj-0D-ZI6">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwk-fZ-BdD">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -639,10 +639,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Sn0-3H-cCa">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndU-R2-d6C">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -720,10 +720,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hnt-Wb-mcz">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SRS-LG-hav">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -759,10 +759,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aF5-4t-d5t">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOV-Vl-oM3">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -798,10 +798,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1v9-Xl-Ka6">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wx-Lr-PdV">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
@@ -837,10 +837,10 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gnc-1q-1QL">
-                                                                                        <rect key="frame" x="32.5" y="26" width="27.5" height="37.5"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                                                         <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
-                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1r-bZ-PUe">
                                                                                         <rect key="frame" x="25" y="60" width="42.5" height="30"/>
