@@ -92,21 +92,32 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4Fv-9Z-FRk">
                                                         <rect key="frame" x="0.0" y="0.0" width="374" height="186"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jMp-A2-BFy">
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="jMp-A2-BFy">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAY1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7On-tN-UFk">
-                                                                        <rect key="frame" x="0.0" y="7.5" width="187" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="7.5" width="147" height="21.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="firstSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="J6e-dw-b9m">
-                                                                        <rect key="frame" x="187" y="2.5" width="189" height="31"/>
-                                                                        <connections>
-                                                                            <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="jJs-YO-J3N"/>
-                                                                        </connections>
-                                                                    </switch>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9fT-gV-LFG">
+                                                                        <rect key="frame" x="227" y="2.5" width="147" height="31"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="slide to see" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pri-LY-wgi">
+                                                                                <rect key="frame" x="0.0" y="6" width="82.5" height="19.5"/>
+                                                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="firstSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="J6e-dw-b9m">
+                                                                                <rect key="frame" x="98" y="0.0" width="51" height="31"/>
+                                                                                <connections>
+                                                                                    <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="jJs-YO-J3N"/>
+                                                                                </connections>
+                                                                            </switch>
+                                                                        </subviews>
+                                                                    </stackView>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="pmL-Ze-jgo">
@@ -125,9 +136,9 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cEk-vm-6cS">
-                                                                                        <rect key="frame" x="0.0" y="30" width="93" height="30"/>
+                                                                                        <rect key="frame" x="31" y="24.5" width="30.5" height="40.5"/>
                                                                                         <color key="tintColor" systemColor="systemYellowColor"/>
-                                                                                        <imageReference key="image" image="cloud.fo" symbolScale="large"/>
+                                                                                        <imageReference key="image" image="sun.max.fill" catalog="system" symbolScale="large"/>
                                                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="light rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJd-qx-Ep0">
@@ -291,21 +302,32 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YrA-h4-Vem">
                                                         <rect key="frame" x="0.0" y="186" width="374" height="186"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ujl-Le-cVx">
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="Ujl-Le-cVx">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAY2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vs5-Bd-CMz">
-                                                                        <rect key="frame" x="0.0" y="7.5" width="187" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="7.5" width="147" height="21.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="secSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="PAV-VZ-cdg">
-                                                                        <rect key="frame" x="187" y="2.5" width="189" height="31"/>
-                                                                        <connections>
-                                                                            <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ssg-LA-p5O"/>
-                                                                        </connections>
-                                                                    </switch>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ch2-rZ-cPd">
+                                                                        <rect key="frame" x="227" y="2.5" width="147" height="31"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="slide to see" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAw-KC-APj">
+                                                                                <rect key="frame" x="0.0" y="6" width="82.5" height="19.5"/>
+                                                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="secSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="PAV-VZ-cdg">
+                                                                                <rect key="frame" x="98" y="0.0" width="51" height="31"/>
+                                                                                <connections>
+                                                                                    <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ssg-LA-p5O"/>
+                                                                                </connections>
+                                                                            </switch>
+                                                                        </subviews>
+                                                                    </stackView>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="f2o-m6-pF9">
@@ -489,21 +511,32 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IVW-bM-Oxc">
                                                         <rect key="frame" x="0.0" y="372" width="374" height="186"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Zcz-ac-DRA">
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="Zcz-ac-DRA">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAY3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWS-EO-tJV">
-                                                                        <rect key="frame" x="0.0" y="7.5" width="187" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="7.5" width="147" height="21.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="thirSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="km7-aw-CCp">
-                                                                        <rect key="frame" x="187" y="2.5" width="189" height="31"/>
-                                                                        <connections>
-                                                                            <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="mcG-1t-Nht"/>
-                                                                        </connections>
-                                                                    </switch>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="seD-kQ-en8">
+                                                                        <rect key="frame" x="227" y="2.5" width="147" height="31"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="slide to see" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKn-uM-IdZ">
+                                                                                <rect key="frame" x="0.0" y="6" width="82.5" height="19.5"/>
+                                                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="thirSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="km7-aw-CCp">
+                                                                                <rect key="frame" x="98" y="0.0" width="51" height="31"/>
+                                                                                <connections>
+                                                                                    <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="mcG-1t-Nht"/>
+                                                                                </connections>
+                                                                            </switch>
+                                                                        </subviews>
+                                                                    </stackView>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="cMK-QB-Btw">
@@ -687,21 +720,32 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PoP-4Y-OyH">
                                                         <rect key="frame" x="0.0" y="558" width="374" height="186"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="u5m-gJ-Svi">
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="u5m-gJ-Svi">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAY4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0B-IO-8zC">
-                                                                        <rect key="frame" x="0.0" y="7.5" width="187" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="7.5" width="147" height="21.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="forSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="QPH-0f-j7K">
-                                                                        <rect key="frame" x="187" y="2.5" width="189" height="31"/>
-                                                                        <connections>
-                                                                            <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="gaq-Ja-nSf"/>
-                                                                        </connections>
-                                                                    </switch>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bwo-3S-vZ6">
+                                                                        <rect key="frame" x="227" y="2.5" width="147" height="31"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="slide to see" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRp-1x-hyz">
+                                                                                <rect key="frame" x="0.0" y="6" width="82.5" height="19.5"/>
+                                                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="forSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="QPH-0f-j7K">
+                                                                                <rect key="frame" x="98" y="0.0" width="51" height="31"/>
+                                                                                <connections>
+                                                                                    <action selector="switchedMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="gaq-Ja-nSf"/>
+                                                                                </connections>
+                                                                            </switch>
+                                                                        </subviews>
+                                                                    </stackView>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="OeY-Pc-Zec">
@@ -1022,7 +1066,6 @@
     </scenes>
     <resources>
         <image name="background" width="662" height="662"/>
-        <image name="cloud.fo" width="128" height="128"/>
         <image name="location.circle.fill" catalog="system" width="128" height="121"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="sun.max.fill" catalog="system" width="128" height="124"/>
