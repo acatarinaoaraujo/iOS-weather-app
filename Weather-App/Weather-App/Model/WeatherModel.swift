@@ -20,8 +20,9 @@ struct WeatherModel {
     let weekDays: [String]
     let dates: [String]
     
-    let description: [String]
     let temp: [String]
+    let description: [String]
+    let feels: [String]
     
     //let hours: [String]
     /*let temp: Float

@@ -65,10 +65,10 @@ struct WeatherManager {
         
             let description = getWeatherDescription(0, 40, decodedData)
             let temp = getTemperature(0, 40, decodedData)
-            print(temp)
+            let feels = getFeelsLike(0, 40, decodedData)
+            print(feels)
             
-            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates, description: description, temp:
-             temp)
+            let weather = WeatherModel(cityName: name, countryName: country, population: population, lat: lat, lon: lon, weekDays: dayOfWeek, dates: dates, temp: temp, description: description, feels: feels)
             return weather
             
         } catch {
@@ -129,10 +129,22 @@ struct WeatherManager {
         
         for i in start...end - 1 {
             let hourTemp = data.list[i].main.temp
-            temperatures.append(String(hourTemp))
+            temperatures.append(String(format: "%.0f", hourTemp))
         }
         
         return temperatures
+        
+    }
+    
+    func getFeelsLike(_ start: Int, _ end: Int, _ data: WeatherData) -> [String] {
+        var feels: [String] = []
+        
+        for i in start...end - 1 {
+            let hourFeelsLike = data.list[i].main.feels_like
+            feels.append(String(format: "%.0f", hourFeelsLike))
+        }
+        
+        return feels
         
     }
     
