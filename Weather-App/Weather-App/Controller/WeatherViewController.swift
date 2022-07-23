@@ -18,29 +18,21 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var coordLabel: UILabel!
     
     @IBOutlet weak var day1Label: UILabel!
-    @IBOutlet weak var min1DayLabel: UILabel!
-    @IBOutlet weak var max1DayLabel: UILabel!
     @IBOutlet weak var first5DayStack: UIStackView!
     @IBOutlet weak var first8HoursStack: UIStackView!
     @IBOutlet weak var firstStackHeight: NSLayoutConstraint!
     
     @IBOutlet weak var day2Label: UILabel!
-    @IBOutlet weak var min2DayLabel: UILabel!
-    @IBOutlet weak var max2DayLabel: UILabel!
     @IBOutlet weak var sec5DayStack: UIStackView!
     @IBOutlet weak var sec8HoursStack: UIStackView!
     @IBOutlet weak var secStackHeight: NSLayoutConstraint!
     
     @IBOutlet weak var day3Label: UILabel!
-    @IBOutlet weak var min3DayLabel: UILabel!
-    @IBOutlet weak var max3DayLabel: UILabel!
     @IBOutlet weak var thr5DayStack: UIStackView!
     @IBOutlet weak var thr8HoursStack: UIStackView!
     @IBOutlet weak var thrStackHeight: NSLayoutConstraint!
     
     @IBOutlet weak var day4Label: UILabel!
-    @IBOutlet weak var min4DayLabel: UILabel!
-    @IBOutlet weak var max4DayLabel: UILabel!
     @IBOutlet weak var four5DayStack: UIStackView!
     @IBOutlet weak var four8HoursStack: UIStackView!
     @IBOutlet weak var fourStackHeight: NSLayoutConstraint!
