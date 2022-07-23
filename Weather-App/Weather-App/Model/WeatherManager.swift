@@ -153,9 +153,30 @@ struct WeatherManager {
         
         for i in start...end - 1 {
             let hourImageCode = data.list[i].weather[0].id
-            imageCodes.append(String(hourImageCode))
+            
+            var conditionName: String {
+                switch hourImageCode {
+                case 200...232:
+                    return "cloud.bolt"
+                case 300...321:
+                    return "cloud.drizzle"
+                case 500...531:
+                    return "cloud.rain"
+                case 600...622:
+                    return "cloud.snow"
+                case 701...781:
+                    return "cloud.fog"
+                case 800:
+                    return "sun.max"
+                case 801...804:
+                    return "cloud.bolt"
+                default:
+                    return "cloud"
+                }
+            }
+            
+            imageCodes.append(String(conditionName))
         }
-        print(imageCodes)
         return imageCodes
         
     }
