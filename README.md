@@ -12,7 +12,7 @@ the [OpenWeather API](https://openweathermap.org/forecast5), where the forecast 
 ![](images/klimato-4.gif)
 
 #### Dark Mode
-<img src="images/klimato-4-darkmode.png" width="300" height="600" />
+<img src="images/klimato-4-darkmode.png" width="300" height="640" />
 
 ### How to use
 1. Download source code :inbox_tray:
