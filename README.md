@@ -1,4 +1,4 @@
-## iOS 4 Day Weather App :iphone: <img src="https://developer.apple.com/swift/images/swift-og.png" width="40">
+## Klimato 4 - iOS 4 Day Weather App :iphone: <img src="https://developer.apple.com/swift/images/swift-og.png" width="40">
 This application is a clothing size calculator for iOS devices. It calculates the chest, waist, and hips in cm and inches. This app was created to get experience using segments, buttons, sliders, dark mode, and segues.
 <p><b>Tools</b>: Xcode.</p>
 <p><b>Languages</b>: Swift. </p>
