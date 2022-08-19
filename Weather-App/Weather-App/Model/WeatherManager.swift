@@ -115,7 +115,6 @@ struct WeatherManager {
         for i in start...end - 1 {
             let hourDescription = data.list[i].weather[0].description
             description.append(String(hourDescription))
-            print(description)
         }
         
         return description
