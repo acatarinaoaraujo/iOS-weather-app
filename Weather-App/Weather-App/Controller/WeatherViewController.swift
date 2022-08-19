@@ -166,7 +166,6 @@ class WeatherViewController: UIViewController {
     
     @IBAction func switchedMoved(_ sender: UISwitch) {
         
-        //print(sender.self)
         firstSwitch.isOn = false
         secSwitch.isOn = false
         thirdSwitch.isOn = false
@@ -214,9 +213,8 @@ class WeatherViewController: UIViewController {
             secStackHeight.constant = 36
             
         }
-    
+
     }
-    
     
     func modifyStacks(_ state: Bool, _ stack: UIStackView, _ height: NSLayoutConstraint) {
         
@@ -231,7 +229,6 @@ class WeatherViewController: UIViewController {
             height.constant = 36
             counterHeigh -= 150
         }
-        print(counterHeigh)
         
         allStacksHeight.constant = CGFloat(counterHeigh)
         
