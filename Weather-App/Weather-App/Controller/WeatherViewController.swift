@@ -261,7 +261,10 @@ extension WeatherViewController: UITextFieldDelegate {
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         
-        if let city = searchTextField.text {
+        if let cityText = searchTextField.text {
+            let trimmedCity = cityText.trimmingCharacters(in: .whitespacesAndNewlines)
+            let city = trimmedCity.replacingOccurrences(of: " ", with: "%20")
+            
             weatherManager.fetchWeather(cityName: city)
         }
         
