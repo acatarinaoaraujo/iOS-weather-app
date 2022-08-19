@@ -1,27 +1,11 @@
 //
 //  WeatherData.swift
-//  Clima
+//  Weather-App
 //
-//  Created by Angela Yu on 03/09/2019.
-//  Copyright © 2019 App Brewery. All rights reserved.
+//  Created by Ana Araujo on 7/17/22.
 //
 
 import Foundation
-
-/*struct WeatherData: Codable {
-    let name: String
-    let main: Main
-    let weather: [Weather]
-}
-
-struct Main: Codable {
-    let temp: Double
-}
-
-struct Weather: Codable {
-    let description: String
-    let id: Int
-}*/
 
 struct WeatherData: Codable {
     let city: City

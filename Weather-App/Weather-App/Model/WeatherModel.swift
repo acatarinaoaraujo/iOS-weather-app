@@ -1,9 +1,8 @@
 //
 //  WeatherModel.swift
-//  Clima
+//  Weather-App
 //
-//  Created by Angela Yu on 03/09/2019.
-//  Copyright © 2019 App Brewery. All rights reserved.
+//  Created by Ana Araujo on 7/17/22.
 //
 
 import Foundation

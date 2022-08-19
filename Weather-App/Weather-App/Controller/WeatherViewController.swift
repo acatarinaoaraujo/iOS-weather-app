@@ -1,9 +1,8 @@
 //
 //  ViewController.swift
-//  Clima
+//  Weather-App
 //
-//  Created by Angela Yu on 01/09/2019.
-//  Copyright © 2019 App Brewery. All rights reserved.
+//  Created by Ana Araujo on 7/17/22.
 //
 
 import UIKit
@@ -11,8 +10,6 @@ import CoreLocation
 
 class WeatherViewController: UIViewController {
     
-    /*@IBOutlet weak var conditionImageView: UIImageView!
-    @IBOutlet weak var temperatureLabel: UILabel!*/
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var populationLabel: UILabel!
     @IBOutlet weak var coordLabel: UILabel!
@@ -123,10 +120,8 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var feelsDay4Hr3: UILabel!
     @IBOutlet weak var feelsDay4Hr4: UILabel!
     
-
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var allStacksHeight: NSLayoutConstraint!
-    
     
     @IBOutlet weak var searchTextField: UITextField!
     
@@ -386,7 +381,6 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.idDay4Hr3Image.image = UIImage(systemName: weather.idImage[30])
             self.idDay4Hr4Image.image = UIImage(systemName: weather.idImage[31])
             
-        
         }
     }
     

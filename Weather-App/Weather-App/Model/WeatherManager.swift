@@ -1,9 +1,8 @@
 //
 //  WeatherManager.swift
-//  Clima
+//  Weather-App
 //
-//  Created by Angela Yu on 03/09/2019.
-//  Copyright © 2019 App Brewery. All rights reserved.
+//  Created by Ana Araujo on 7/17/22.
 //
 
 import Foundation
@@ -15,7 +14,6 @@ protocol WeatherManagerDelegate {
 }
 
 struct WeatherManager {
-    //let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=c6856320ce2188319591d654c250e2dd&units=metric"
     let weatherURL = "https://api.openweathermap.org/data/2.5/forecast?appid=c6856320ce2188319591d654c250e2dd&units=imperial"
     
     var delegate: WeatherManagerDelegate?
